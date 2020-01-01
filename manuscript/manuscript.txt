@@ -240,17 +240,17 @@ D) nano
 
 ? What command do you use to show the files in a directory?
 
-a) open
-b) list
-C) ls
-d) top
+a) `open`
+b) `list`
+C) `ls`
+d) `top`
 
 ? What command do you use to show the contents of a file?
 
-a) dog
-B) cat
-c) cow
-d) pig
+a) `dog`
+B) `cat`
+c) `cow`
+d) `pig`
 {/quiz}
 
 {#lesson2}
