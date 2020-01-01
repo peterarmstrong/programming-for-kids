@@ -2004,6 +2004,20 @@ irb>
 
 That was easy!
 
+By the way, you can also use curly braces (`{` and `}`) to do this on one line:
+
+{lang="text"}
+~~~
+irb> File.foreach("words.txt") { |line| puts line }
+apple
+banana
+peach
+pear
+
+=> nil
+irb>
+~~~
+
 But, what if we want to actually keep the contents of the file around to do other stuff with it?  After our block is done, the lines are gone!
 
 Let's read the file a different way:
@@ -2162,12 +2176,13 @@ You can see the [answers to the exercises](#lesson11answers), or just continue t
 ## Quiz
 
 {quiz, id: quiz11}
-? How would you use the `say` console command from inside `irb` to say "hi"?
 
-a) ` say("hi")`
-b) ` say "hi"`
-c) ` say hi`
-D) ` \`say "hi"\` `
+? How could you print all the lines of a file called `words.txt` in Ruby?
+
+a) `File.all_lines("words.txt") { |line| puts line }`
+b) `File.alllines("words.txt") { |line| puts line }`
+c) `File.for_each("words.txt") { |line| puts line }`
+D) `File.foreach("words.txt") { |line| puts line }`
 
 ? What is the value of `a` after the following in irb?
 
