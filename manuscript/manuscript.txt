@@ -2164,10 +2164,10 @@ You can see the [answers to the exercises](#lesson11answers), or just continue t
 {quiz, id: quiz11}
 ? How would you use the `say` console command from inside `irb` to say "hi"?
 
-a) `say("hi")`
-b) `say "hi"`
-c) `say hi`
-D) `\`say "hi"\` `
+a) ` say("hi")`
+b) ` say "hi"`
+c) ` say hi`
+D) ` \`say "hi"\` `
 
 ? What is the value of `a` after the following in irb?
 
