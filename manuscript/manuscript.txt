@@ -1866,6 +1866,9 @@ You can see the [answers to the exercises](#lesson10answers), or just continue t
 ## Quiz
 
 {quiz, id: quiz10}
+
+Note that with all of the "What is value of `a`" questions below, I am *NOT* asking "what is printed by `irb` after the last command. I'm asking "What would be printed by `irb` if I typed `a` and hit Enter at the `irb> ` prompt afterward. Think carefully. (You can also check the answer in `irb` if you wish.)
+
 ? What is the value of `a` after the following in irb?
 
 ```
@@ -2156,17 +2159,15 @@ Great job!  This was the most complex program you've ever written...
 You can see the [answers to the exercises](#lesson11answers), or just continue to the quiz.
 
 {#lesson11quiz}
-## Quiz!
+## Quiz
 
 {quiz, id: quiz11}
-Note that with all of the "What is value of `a`" questions below, I am *NOT* asking "what is printed by `irb` after the last command. I'm asking "What would be printed by `irb` if I typed `a` and hit Enter at the `irb> ` prompt afterward. Think carefully. (You can also check the answer in `irb` if you wish.)
-
 ? How would you use the `say` console command from inside `irb` to say "hi"?
 
-a) ` say("hi")`
-b) ` say "hi"`
-c) ``` say `hi` ```
-D) ``` `say "hi"` ```
+a) say("hi")
+b) say "hi"
+c) say `hi
+D) \`say "hi"\`
 
 ? What is the value of `a` after the following in irb?
 
