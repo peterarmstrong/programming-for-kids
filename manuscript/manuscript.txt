@@ -1,6 +1,6 @@
 {
   course-attempts: 30
-  default-quiz-attempts: 5
+  default-quiz-attempts: 10
 }
 
 {#lesson0, include: "course,sample"}
