@@ -5,3 +5,5 @@ This is the Git repository for the Leanpub [book](https://leanpub.com/programmin
 All material is copyright [Peter Armstrong](https://twitter.com/peterarmstrong).
 
 This repository is public on GitHub primarily so that it can be used as an example of the repository for a Leanpub book and course.
+
+The book is written in the [book](https://github.com/peterarmstrong/programming-for-kids/tree/book) branch, and the course is written in the [course](https://github.com/peterarmstrong/programming-for-kids/tree/course) branch.
