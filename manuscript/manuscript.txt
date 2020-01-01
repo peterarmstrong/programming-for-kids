@@ -2163,10 +2163,10 @@ Note that with all of the "What is value of `a`" questions below, I am *NOT* ask
 
 ? How would you use the `say` console command from inside `irb` to say "hi"?
 
-a) say("hi")
-b) say "hi"
-c) say \`hi\`
-D) \`say "hi"\`
+a) ` say("hi")`
+b) ` say "hi"`
+c) ``` say `hi` ```
+D) ``` `say "hi"` ```
 
 ? What is the value of `a` after the following in irb?
 
