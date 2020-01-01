@@ -2165,8 +2165,8 @@ Note that with all of the "What is value of `a`" questions below, I am *NOT* ask
 
 a) say("hi")
 b) say "hi"
-c) say `hi`
-D) `say "hi"`
+c) say \`hi\`
+D) \`say "hi"\`
 
 ? What is the value of `a` after the following in irb?
 
