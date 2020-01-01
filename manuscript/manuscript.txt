@@ -945,18 +945,18 @@ end
 
 ? How would you load these functions into `irb`?
 
-a) open foo
-b) load foo
-c) load 'foo'
-D) load 'foo.rb'
+a) `open foo`
+b) `load foo`
+c) `load 'foo'`
+D) `load 'foo.rb'`
 
 ? Assume that you have loaded the functions from `foo.rb` above. How would you multiply the number 3 by 6?
 
-a) triple double 3
-b) double triple 3
-c) triple(double(3))
-d) double(triple(3))
-e) 3 * 6
+a) `triple double 3`
+b) `double triple 3`
+c) `triple(double(3))`
+d) `double(triple(3))`
+e) `3 * 6`
 F) all of the above
 {/quiz}
 
