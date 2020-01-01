@@ -1,61 +1,99 @@
-{frontmatter}
+{
+  course-attempts: 30
+  default-quiz-attempts: 5
+}
 
-# Introduction
+{#lesson0, include: "course,sample"}
+# Lesson 0: Introduction
 
-This book will teach you how to write computer programs!
+## For Kids
 
-You will need to use a Mac computer to follow along.  The programs are short, so you can type them all in yourself.  This is true even if you can't type well.
+This course will get you started learning how to write computer programs!
 
-This book has a bunch of small chapters.  Each chapter is about one idea.
+Writing computer programs, called "programming" or "coding", is a genuinely fun thing to do. You get to solve puzzles and build things. If you work hard, it can be very rewarding.
 
-At the end of every chapter, there will be exercises for you to do.  It is really important that you do all of them!  Doing the exercises ensures that you know the material in the chapter.  The answers for all the exercises are in the back of the book, and there are links to the answers for all the exercises.
+You will need to use a Mac computer to follow along. The examples are short, so you can type them all in yourself. This is true even if you can't type well.
 
-If your parents want to find out more about this book, they can read it with you.  Or, they can just read the [For Parents](#forparents) section at the back of the book.
+This course has a bunch of small lessons. Each lesson is about one idea.
 
-If you're going to use their computer, they might want to sit with you.  That's fine.  They'll learn something too!
+At the end of every lesson, there will be exercises for you to do. It is really important that you do all of them!  Doing the exercises ensures that you know the material in the lesson. The answers for all the exercises are in the back of the course, and there are links to the answers for all the exercises.
 
-If you are following along on your Mac, you want to read the PDF file that your parents downloaded.  If you double-click on the PDF file, it will open in a program called Preview.  You will be switching back and forth between reading this book in Preview and typing stuff in Terminal.  If you have clicked on the Preview to switch pages, you will need to click on the Terminal window to focus it **before** typing any commands.
+If your parents want to find out more about this course, they can read it with you. Or, they can just read the For Parents section below.
 
-If switching between Preview and Terminal gets annoying, there are a couple things you can do.  If your parents have a printer, they can print the book.  Or, if they have an iPad, they can download the EPUB file, add it to iTunes and then sync it to the iPad.
+If you're going to use their computer, they might want to sit with you. That's fine. They'll learn something too!
 
-Let's get started!
+If you are following along on your Mac, you want to follow along with the course in a web browser. You can either use Safari or Google Chrome.
 
-{mainmatter}
+You will be switching back and forth between reading this course in your web browser and typing stuff in Terminal. If you have clicked on your browser window to read, you will need to click on the Terminal window to focus it before typing any commands in Terminal.
 
-{#ch1, include: "book,sample"}
-# Chapter 1: Hello, Command Line!
+Let's get started! Click ["Lesson 1: Hello, Command Line"](#lesson1) to skip to the first lesson, or read what I'm telling your parents about the course below if you're curious.
 
-This chapter is about the command line!
+## For Parents
 
-This book is for kids like you who use a Mac computer, either at home or at school.
+This is a course for you to read with your child, or for your child to read by himself or herself.
 
-Normally you use a Mac by clicking on stuff with a mouse.  In this chapter you will learn a different way to use a Mac.  It is called the command line, and you just use the keyboard.
+It is heavily based on a book, [Programming for Kids](https://leanpub.com/programmingforkids), which I wrote to teach my 9 year old son the basics of programming. He had been playing video games for years, and he wanted to learn programming since he wanted to make his own video games someday. This course is intended to be the first step. (No, it doesn't teach you how to create the kinds of video games a 9 year old can dream up; that takes a lot more knowledge!)
 
-Once upon a time, about 30 years ago, all computers had was a command line.
+This course exists to show kids that they can program computers, and to help them get started. I want it to be the best course in the world for a kid who is wanting to learn to program computers to do first.
 
-Even though the command line is simple, it is also very powerful.  If you know how to use it, you will be like a wizard who can type strange spells and make your computer do amazing things.
+I'm also writing another [book](https://leanpub.com/programmingforteens) and [course](https://leanpub.com/c/programmingforteens) for older kids (ages 13-17) called Programming for Teens. That book and course teach some of the same material as this course does, and as the book that this is based on. However, it's written for kids who are slightly older. Also, that course can be done using a Mac, Windows or Linux computer, or even a Chromebook--all it requires is Google Chrome.
 
-Relax, it's not scary.  If you get something wrong, you won't break anything!
+This course, on the other hand, requires a Mac. In my opinion, a Mac is the best computer to learn programming on: you have Terminal and easy access to the local filesystem (unlike a Chromebook), the UI is easy to use (unlike some versions of Linux), and the underlying OS is based on UNIX (unlike Windows). Since this is a beginner course for kids, I can't write it generically to cover Mac, Windows and Linux. I have to pick one operating system, and have the child follow along verbatim. Also, you can't save files locally on a Chromebook, so teaching programming on a Chromebook requires a totally different approach.
+
+So, if you have a Mac, I recommend you do this course first, then move on to the [Programming for Teens course](https://leanpub.com/c/programmingforteens) if you liked this one.
+
+The reason for the age difference between this course and Programming for Teens is that my son was the intended reader of both. I started writing the book which this course is based on when he was 9, and I'm writing the Programming for Teens book and course when he is a teenager. Right now, the 9 year old version of him is a distant memory.
+
+Computer programming is a good skill to have, regardless of what occupation your child eventually does as an adult. (I'd argue it's much more important than lots of the math than you learn in high school, for example.)  But more importantly, learning how to program computers teaches a rigour and discipline of thinking which is useful in any field.
+
+No knowledge of programming is assumed. The examples are as short as possible, since I assume the reader can't type well. (My son couldn't touch type when he followed along with my book, so if I made long examples I would have heard complaints!)
+
+Besides teaching programming, the course also teaches basic use of the command line on a Mac. This is accessed via the Terminal program. The reason for this is that I feel that the best way to learn is to follow along, and the simplest way to follow along is to type everything. Real programmers use the command line every day. If you want to learn programming, you should use Terminal and files.
+
+If you are letting your child use your Mac computer to follow along, I strongly recommend you sit beside them and follow along!  For example, I'm not planning to teach the command to delete files, but it's fairly short!
+
+The examples are in Ruby. Ruby is a fairly simple programming language. If you've ever heard of websites built on "Ruby on Rails", you've heard of Ruby: it's the programming language that Rails is written in. This is not a course about how to learn Ruby, however. The examples could have easily been written in JavaScript, CoffeeScript or Python.
+
+Finally, I really want your feedback!  Did your child get stuck anywhere?  If you have anything to say about the course, I want to hear it!  Please email me at peter@leanpub.com and let me know!
+
+{#lesson1, include: "course,sample"}
+# Lesson 1: Hello, Command Line!
+
+## Material
+
+This lesson is about the command line!
+
+This course is for kids like you who use a Mac computer, either at home or at school.
+
+Normally you use a Mac by clicking on stuff with a mouse. In this lesson you will learn a different way to use a Mac. It is called the command line, and you just use the keyboard.
+
+A command line looks really basic, but it's the most powerful tool on any computer.
+
+Once upon a time, about 35 years ago, all computers had was a command line.
+
+Even though the command line is simple, it is also very powerful. If you know how to use it, you will be like a wizard who can type strange spells and make your computer do amazing things.
+
+Relax, it's not scary. If you get something wrong, you won't break anything!
 
 First we need to learn the basics.
 
-You already know what a keyboard is.  But there may be some keys you may not have used before.  These are the Command, Option, Control and Shift keys.
+You already know what a keyboard is. But there may be some keys you may not have used before. These are the Command, Option, Control and Shift keys.
 
 ![The Command, Option, Control and Shift Keys](images/keys_selected.png)
 
-We are going to start a program called Terminal.  Terminal is what lets you use the command line on your Mac.
+We are going to start a program called Terminal. Terminal is what lets you use the command line on your Mac.
 
-To start Terminal, hold down the Command key and press the Space bar.  (A shorter way of saying this is to say "type **`Command + Space`**".  So, that's what I will say from now on.)
+To start Terminal, hold down the Command key and press the Space bar. (A shorter way of saying this is to say "type `Command + Space`". So, that's what I will say from now on.)
 
-Typing **`Command + Space`** opens a program called Spotlight in the top right corner of your screen.
+Typing `Command + Space` opens a program called Spotlight in the top right corner of your screen.
 
 ![Spotlight](images/spotlight.png)
 
 Spotlight lets you type the names of programs to run.
 
-We are going to run Terminal.  So, type **`terminal`** in Spotlight and hit the Enter key.
+We are going to run Terminal. So, type `terminal` in Spotlight and hit the Enter key.
 
-You might see it show up in a drop down list after you type **`term`**.  If so, you can just click on that choice instead of finishing typing **`terminal`**.
+You might see it show up in a drop down list after you type `term`. If so, you can just click on that choice instead of finishing typing `terminal`.
 
 ![Running Terminal](images/spotlightterminal.png)
 
@@ -67,9 +105,9 @@ Terminal is the command line of the Mac.
 
 (Don't worry about the ~[]$ stuff at the beginning of the line. That's just what the "prompt" looks like on my computer, and it is possible to customize your prompt. Your prompt might look like > or ~.)
 
-Before we get started, let's have the command line say hello to us. To do this, we're going to run the **`say`** program.
+Before we get started, let's have the command line say hello to us. To do this, we're going to run the `say` program.
 
-Type **`say hello`** in Terminal.
+Type `say hello` in Terminal.
 
 ![](images/say_hello.png)
 
@@ -81,39 +119,39 @@ Hopefully your Mac said hello to you!  If not, make sure the volume is on and tr
 
 By the way, after entering any command in Terminal you need to hit Enter to run it.
 
-Now, let's start by making a folder for all the stuff we are going to do in this book.  Type **`mkdir stuff`** in Terminal and hit Enter.
+Now, let's start by making a folder for all the stuff we are going to do in this course. Type `mkdir stuff` in Terminal and hit Enter.
 
 ![](images/hellocmdline002.png)
 
-The command **`mkdir`** is said "make dir" and stands for "make directory".  Directory is another word for folder.  So, you just made a folder called **`stuff`**.
+The command `mkdir` is said "make dir" and stands for "make directory". Directory is another word for folder. So, you just made a folder called `stuff`.
 
-Next, we are going to go into that folder.  Type **`cd stuff`** in Terminal and hit Enter.
+Next, we are going to go into that folder. Type `cd stuff` in Terminal and hit Enter.
 
 ![](images/hellocmdline003.png)
 
-The **`cd`** command stands for "change directory".  So, you are changing into the directory called stuff that you just made.
+The `cd` command stands for "change directory". So, you are changing into the directory called stuff that you just made.
 
-Let's look inside this directory.  In Terminal, type **`ls`** (a lowercase L and a lowercase S) and hit Enter.
+Let's look inside this directory. In Terminal, type `ls` (a lowercase L and a lowercase S) and hit Enter.
 
 ![](images/hellocmdline004.png)
 
-Typing **`ls`** shows nothing!
+Typing `ls` shows nothing!
 
-The **`ls`** command means "list", which means to show the files and folders inside this folder.  There is nothing in this folder, since we just made it.  So, this is why typing **`ls`** shows nothing.
+The `ls` command means "list", which means to show the files and folders inside this folder. There is nothing in this folder, since we just made it. So, this is why typing `ls` shows nothing.
 
 Now, let's change that by creating a file.
 
-We are going to use a program called a text editor to edit the file.  A text editor lets you type words in a file, and save the file just like you would save a game.  We are just going to use a small text editor called **`nano`**.  Nano means really small, and it's a good name since **`nano`** is a really small, simple text editor.
+We are going to use a program called a text editor to edit the file. A text editor lets you type words in a file, and save the file just like you would save a game. We are just going to use a small text editor called `nano`. Nano means really small, and it's a good name since `nano` is a really small, simple text editor.
 
-So, in Terminal, type **`nano`** and hit the Enter key.
+So, in Terminal, type `nano` and hit the Enter key.
 
 ![](images/hellocmdline005.png)
 
-This starts nano.  The screen will look like this.
+This starts nano. The screen will look like this.
 
 ![](images/hellocmdline006.png)
 
-In nano, type **`hello`**.  You don't need to hit the Enter key.
+In nano, type `hello`. You don't need to hit the Enter key.
 
 ![](images/hellocmdline007.png)
 
@@ -121,13 +159,13 @@ You can see that nano is being helpful, by showing you the list of commands you 
 
 ![](images/nano_commands.png)
 
-So, to save the file, hold the **`Control`** key down and type the **`o`** key.
+So, to save the file, hold the `Control` key down and type the `o` key.
 
 Nano will ask you what you want to call the file you are saving, by showing text saying "File Name to Write".
 
 ![](images/hellocmdline008.png)
 
-Type **`hello.txt`** and press the Enter key.
+Type `hello.txt` and press the Enter key.
 
 ![](images/hellocmdline009.png)
 
@@ -137,29 +175,29 @@ Nano will save the file and tell you it was one line long, by saying "Wrote 1 li
 
 (If you had hit Enter after typing "hello" earlier, it will say "Wrote 2 lines". That's fine, don't worry.)
 
-Now that we've saved our file, let's quit nano by holding down the Control key and typing **`x`**.  (A shorter way of saying this is to say "type **`Control + x`**".  So, that's what I will say from now on.)
+Now that we've saved our file, let's quit nano by holding down the Control key and typing `x`. (A shorter way of saying this is to say "type `Control + x`". So, that's what I will say from now on.)
 
 You will be back at the command line inside Terminal.
 
 ![](images/hellocmdline011.png)
 
-Let's look inside our **`stuff`** folder again.  Remember last time we typed **`ls`** we saw it was empty.  Type **`ls`** in Terminal again.  You will see the hello.txt file you created.
+Let's look inside our `stuff` folder again. Remember last time we typed `ls` we saw it was empty. Type `ls` in Terminal again. You will see the hello.txt file you created.
 
 ![](images/hellocmdline012.png)
 
-Let's look inside this file.  Type **`cat hello.txt`** in Terminal and hit Enter.
+Let's look inside this file. Type `cat hello.txt` in Terminal and hit Enter.
 
-Here, **`cat`** is not an animal.  Instead, it is a command that shows you what is in your file.  Since we typed the word hello, this is what you will see.
+Here, `cat` is not an animal. Instead, it is a command that shows you what is in your file. Since we typed the word hello, this is what you will see.
 
 ![](images/hellocmdline013.png)
 
-So, the hello.txt file had "hello" inside it, so when you typed **`cat hello.txt`** you saw "hello".
+So, the hello.txt file had "hello" inside it, so when you typed `cat hello.txt` you saw "hello".
 
-You now know how to use some of the basic commands of the command line!  You learned a bunch of strange commands, things like **`mkdir`**, **`cd`**, **`ls`** and **`cat`**.  The neat thing is that these commands are actually just programs that were written by other people!
+You now know how to use some of the basic commands of the command line!  You learned a bunch of strange commands, things like `mkdir`, `cd`, `ls` and `cat`. The neat thing is that these commands are actually just programs that were written by other people!
 
-In the next chapter, **you** will create **your** first program, which **you** will also be able to run from the command line!
+In the next lesson, you will create your first program, which you will also be able to run from the command line!
 
-Finally, we are going to quit Terminal.  Type **`Command + Q`** or choosing Quit Terminal from the Terminal menu.
+Finally, we are going to quit Terminal. Type `Command + Q` or choosing Quit Terminal from the Terminal menu.
 
 ![](images/quittingterminal.png)
 
@@ -169,27 +207,64 @@ Make sure you do the Exercises on the next page before continuing!
 
 {pagebreak}
 
-## Exercises {#ch1exercises}
+{#lesson1exercises}
+## Exercises
 
 1. Start Terminal and `cd` into the `stuff` directory.
 
-2. Use nano to make a file named `hooray.txt` that contains the text "hooray".  Quit nano when you're done.
+2. Use nano to make a file named `hooray.txt` that contains the text "hooray". Quit nano when you're done.
 
 3. Use the `cat` program to see the contents of your `hooray.txt` file.
 
 4. Quit Terminal.
 
-You can see the [answers to the exercises](#ch1answers), or just continue to the next chapter.
+You can see the [answers to the exercises](#lesson1answers), or just continue to the quiz.
 
-# Chapter 2: Hello World! {#ch2}
+{#lesson1quiz}
+## Quiz
+
+{quiz, id: quiz1}
+? What is the command line program on the Mac called?
+
+A) Terminal
+b) Terminus
+c) Power Shell
+d) Command
+
+? Which of these is a text editor you can run from the command line?
+
+a) small
+b) micro
+c) macro
+D) nano
+
+? What command do you use to show the files in a directory?
+
+a) open
+b) list
+C) ls
+d) top
+
+? What command do you use to show the contents of a file?
+
+a) dog
+B) cat
+c) cow
+d) pig
+{/quiz}
+
+{#lesson2}
+# Lesson 2: Hello World!
+
+## Material
 
 Let's write our first computer program!
 
-Start Terminal, `cd` into the `stuff` directory and run `nano`. (If that did not make sense, see the [Chapter 1 Exercises](#ch1exercises).)
+Start Terminal, `cd` into the `stuff` directory and run `nano`. (If that did not make sense, [read lesson 1 again](#lesson1).)
 
-We're going to create a really simple program.  Type **`puts "Hello World!"`** in nano.
+We're going to create a really simple program. Type `puts "Hello World!"` in nano.
 
-There's no need to hit the Enter key.  I'll talk more about what **`puts`** means later.
+There's no need to hit the Enter key. I'll talk more about what `puts` means later.
 
 To type a quote mark like `"`, hold the shift key and type the `'` key. There's no difference between the start and end quote marks.
 
@@ -197,103 +272,206 @@ To type a quote mark like `"`, hold the shift key and type the `'` key. There's 
 
 That's it!
 
-Type **`Control + o`** to save the file.
+Type `Control + o` to save the file.
 
 Nano will ask you what you want to call the file you are saving, by showing text saying "File Name to Write:"
 
-Type **`hello.rb`** and press the **`Enter`** key.  As you type the file name, you will see it shown in "File Name to Write" area near the bottom of Terminal.
+Type `hello.rb` and press the `Enter` key. As you type the file name, you will see it shown in "File Name to Write" area near the bottom of Terminal.
 
 ![](images/helloworld002.png)
 
-Nano will save the file and tell you it was one line long, by saying "Wrote 1 line".  (If you hit the Enter key, it will say Wrote 2 lines. That's fine too.)
+Nano will save the file and tell you it was one line long, by saying "Wrote 1 line". (If you hit the Enter key, it will say Wrote 2 lines. That's fine too.)
 
-Now that we've saved our file, type **`Control + x`** to quit nano.
+Now that we've saved our file, type `Control + x` to quit nano.
 
 Let's run our program!
 
-In Terminal, type **`ruby hello.rb`** and hit **`Enter`**.  You need a space between **`ruby`** and **`hello.rb`**.
+In Terminal, type `ruby hello.rb` and hit `Enter`. You need a space between `ruby` and `hello.rb`.
 
 ![Your First Computer Program!](images/helloworld003.png)
 
-Congratulations, you've written your first computer program!  As you just saw, **`puts`** printed something to the screen.
+Congratulations, you've written your first computer program!  As you just saw, `puts` printed something to the screen.
 
 But, what was that strange word "ruby"?
 
-Ruby is a programming language.  You speak English, but there are lots of other languages that people speak.  Similarly, there are lots of different languages you can use to tell a computer what to do.  Ruby is one of the easier ones to use, and your Mac comes with Ruby already installed.
+Ruby is a programming language. You speak English, but there are lots of other languages that people speak. Similarly, there are lots of different languages you can use to tell a computer what to do. Ruby is one of the easier ones to use, and your Mac comes with Ruby already installed.
 
 The program you wrote was a Ruby program!  The file extension (the stuff after the . in the filename) for Ruby programs is `rb`, so we named the file `hello.rb`.
 
-In the next chapter, we will play with Ruby on its own command line!
+In the next lesson, we will play with Ruby on its own command line!
 
-## Exercises {#ch2exercises}
+{#lesson2exercises}
+## Exercises
 
 1. Write and run a Ruby program named hi.rb that prints `Hi!`.
 
-You can see the [answers to the exercises](#ch2answers), or just continue to the next chapter.
+You can see the [answers to the exercises](#lesson2answers), or just continue to the quiz.
 
-# Chapter 3: Hello, **`irb`**! {#ch3}
+{#lesson2quiz}
+## Quiz
 
-Ensure that Terminal is running, and that you are in the `stuff` directory. (If that did not make sense, see the [Chapter 1 Exercises](#ch1exercises).)
+{quiz, id: quiz2}
+? What programming language are we using in this course?
 
-Ruby is a programming language.  It also has its own command line called **`irb`**, which stands for Interactive Ruby Shell.
+a) pearl
+B) Ruby
+c) Java
+d) C
 
-To start **`irb`**, just type **`irb`** in Terminal.
+? How do you print something in the programming language we're using?
+
+a) put
+B) puts
+c) System.out.println
+d) show
+
+{/quiz}
+
+{#lesson3}
+# Lesson 3: Hello, `irb`!
+
+## Material
+
+Ensure that Terminal is running, and that you are in the `stuff` directory. (If that did not make sense, see the [Lesson 1 Exercises](#lesson1exercises).)
+
+Ruby is a programming language. It also has its own command line called `irb`, which stands for Interactive Ruby Shell.
+
+To start `irb`, just type `irb` in Terminal.
 
 ![](images/helloirb001.png)
 
-Note that irb has its own prompt.  On my Mac, it looks like `irb(main):001:0> `.  If you have an older version of Ruby on an older Mac, your irb prompt might just look like **`>>`**. The irb prompt just lets you know that irb is waiting for you to type a command. We'll ignore the other details that it shows.
+Note that irb has its own prompt. On my Mac, it looks like `irb(main):001:0> `. If you have an older version of Ruby on an older Mac, your irb prompt might just look like `>>`. The irb prompt just lets you know that irb is waiting for you to type a command. We'll ignore the other details that it shows.
 
 Anyway, let's get irb to do your math homework!
 
-Type **`2+2`** in irb and hit Enter.
+Type `2 + 2` in irb and hit Enter. (You could have also just typed `2+2`, but I prefer to put spaces around the operators for readability.)
 
 ![](images/helloirb002.png)
 
-For your parents' sake: you should just use **`irb`** to check your answers when **you** do your math homework! :)
+By the way, you should just use `irb` to check your answers when you do your math homework! This isn't just because you should learn math, it's because you should never just blindly trust the answer from a computer. You'll see why in a little bit.
 
-To do multiplication, you use **`*`** (**`shift`** + **`8`**) not **`x`**.
+To do multiplication, you use `*` (`shift` + `8`) not `x`.
 
-Try **`3*2`** in irb.
+Try `3 * 2` in irb.
 
 {lang="text"}
 ~~~
-irb> 3*2
+irb> 3 * 2
 => 6
 ~~~
 
-To do division, you use **`/`** (which is beside the right `shift` key).
+To do division, you use `/` (which is beside the right `shift` key).
 
 {lang="text"}
 ~~~
-irb> 6/2
+irb> 6 / 2
 => 3
 ~~~
 
-To quit irb, type **`quit`**.
+Now that you know how to divide in Ruby, what do you think the result of this is:
+
+{lang="text"}
+~~~
+irb> 5 / 2
+=>
+~~~
+
+If you said `2.5` you'd be wrong!
+
+{lang="text"}
+~~~
+irb> 5 / 2
+=> 2
+~~~
+
+The general lesson here is: don't blindly trust a computer.
+
+The specific lesson is that there are different types of numbers in Ruby. There are floating point numbers (with decimals in them), and integers (with no decimals in them). The type of answer Ruby makes is based on the type of the numbers it is dividing.
+
+If Ruby is dividing integers, it just does the division and throws away the remainder!
+
+If either the numerator or denominator is a decimal, however, the result is a decimal:
+
+{lang="text"}
+~~~
+irb> 5.0/2
+=> 2.5
+~~~
+
+By the way, if you are doing integer division (no decimals) in Ruby and you want the remainder, you can get it using something called the "mod" operator (for modulo), which is a `%` sign.
+
+{lang="text"}
+~~~
+irb> 5 % 2
+=> 1
+~~~
+
+This is correct, since 5 divided by 2 is 2 and 1/2. The 1 here is the 1 which is over the 2.
+
+To quit irb, type `quit`.
 
 ![](images/quittingirb.png)
 
 One of the reasons that Ruby is an easy programming language to learn is that it has irb, so you can experiment interactively really quickly.
 
-In the next chapter, we're going to learn what functions are!
+In the next lesson, we're going to learn what functions are!
 
-## Exercises {#ch3exercises}
+{#lesson3exercises}
+## Exercises
 
-1. Have irb do **`3-2`**.  The minus key, `-`, is beside the 0.
+1. Have irb do `3 - 2`. The minus key, `-`, is beside the 0.
 
-2. Have irb do **`3.0/2`**.  What do you think the answer is?
+2. Have irb do `3.0 / 2`. What do you think the answer is? Why?
 
-You can see the [answers to the exercises](#ch3answers), or just continue to the next chapter.
+3. Have irb do `3 / 2`. What do you think the answer is? Why?
 
-# Chapter 4: Functions {#ch4}
+You can see the [answers to the exercises](#lesson3answers), or just continue to the quiz.
 
-If all we could do with programming languages was add numbers and say hello to ourselves, we wouldn't have anything more than a lousy calculator!
+{#lesson3quiz}
+## Quiz
+
+{quiz, id: quiz3}
+? What command to you type in Terminal to start the interactive Ruby shell?
+
+a) ruby
+b) rb
+c) iruby
+D) irb
+
+? What's the result of doing `7 / 2` in the interactive Ruby shell?
+
+A) 3
+b) 3.5
+c) 4
+d) 4.5
+
+? What's the result of doing `7.0 / 2` in the interactive Ruby shell?
+
+a) 3
+B) 3.5
+c) 4
+d) 4.5
+
+? What's the result of doing `11 % 3` in the interactive Ruby shell?
+
+a) 0
+b) 1
+C) 2
+d) 3
+{/quiz}
+
+{#lesson4}
+# Lesson 4: Functions
+
+## Material
+
+If all we could do with programming languages was basic math and say hello to ourselves, we wouldn't have anything more than a lousy calculator!
 
 Let's do something more interesting!
 
-We're going to define a function.  Most computer programs are made up of a lot of functions.  A function is something that does some stuff and returns a value.  The return value is the answer.
+We're going to define a function. Most computer programs are made up of a lot of functions. A function is something that does some stuff and returns a value. The return value is the answer.
 
-Start irb again by typing **`irb`** in Terminal. (If Terminal isn’t running, start it using Spotlight, and go into your stuff directory by typing **`cd stuff`**.)
+Start irb again by typing `irb` in Terminal. (If Terminal isn’t running, start it using Spotlight, and go into your stuff directory by typing `cd stuff`.)
 
 Let’s make a function that knows how to double any number.
 
@@ -306,32 +484,32 @@ x+x
 end
 ~~~
 
-To type **`(`** you hold shift and type 9, and to type **`)`** you hold shift and type 0.
+To type `(` you hold shift and type 9, and to type `)` you hold shift and type 0.
 
 ![](images/doublex.png)
 
 This function is only 3 lines long, but there’s lots going on here.
 
-The word **`def`** is how we start defining a function in Ruby. (Programmers don’t like to type long words, so **`def`** is short for define.)
+The word `def` is how we start defining a function in Ruby. (Programmers don’t like to type long words, so `def` is short for define.)
 
-The inputs to the function are put in brackets, which are the () things. In this example, we have one input. Since we don’t like typing, we will name this input **`x`**.
+The inputs to the function are put in brackets, which are the () things. In this example, we have one input. Since we don’t like typing, we will name this input `x`.
 
-The name of the function is called **`double`**.
+The name of the function is called `double`.
 
 One way to double a number is to add it to itself. To double 2, you say 2 + 2, which is 4. To double 3, you say 3 + 3, which is 6. What we are doing is making a function which can double any number. We don’t know what that number is going to be in advance, so we just called it `x`. So, to double `x`, we just say `x+x`.
 
 Finally, the last line is end, since that is how you end a function definition in Ruby.
-When you typed this in, you saw that defining the function printed **`=> nil`**.
+When you typed this in, you saw that defining the function printed `=> nil`.
 
 ![](images/doublex.png)
 
-All this means is that return value of actually defining the function is nothing. In Ruby, we call nothing **`nil`**.
+All this means is that return value of actually defining the function is nothing. In Ruby, we call nothing `nil`.
 
 Anyway, we made a function that knows how to double a number, by adding it to itself. Let’s see how it works.
 
-I’m going to show the irb prompt as `irb>` from now on.  This way, you will see what you type as input to irb (at the irb prompt) and what irb prints as output (with a **`=>`** arrow).
+I’m going to show the irb prompt as `irb>` from now on. This way, you will see what you type as input to irb (at the irb prompt) and what irb prints as output (with a `=>` arrow).
 
-Anyway, type **`double 2`** in irb.  When you follow along, you do not actually type `irb>`.  Just type the stuff after it.
+Anyway, type `double 2` in irb. When you follow along, you do not actually type `irb>`. Just type the stuff after it.
 
 {lang="text"}
 ~~~
@@ -341,7 +519,7 @@ irb> double 2
 
 2 + 2 is 4, so that looks right.
 
-When you **define** a function you use `def` ... `end`.  When you use the function that you defined, you are said to be **calling** the function  To **call** a function, you just use the name of the function, and any arguments.  So `double 2` is a **function call**.  You can also put the arguments to the function in brackets, like this: `double(2)`.
+When you define a function you use `def` ... `end`. When you use the function that you defined, you are said to be calling the function  To call a function, you just use the name of the function, and any arguments. So `double 2` is a function call. You can also put the arguments to the function in brackets, like this: `double(2)`.
 
 Let’s try a bigger number!
 
@@ -364,9 +542,9 @@ irb> y*3
 irb> end
 ~~~
 
-Note there is a space between **`def`** and **`triple`**.
+Note there is a space between `def` and `triple`.
 
-Here, we’re going to name the input to the function **`y`**, not **`x`**. This input is called a parameter.
+Here, we’re going to name the input to the function `y`, not `x`. This input is called a parameter.
 
 It doesn’t matter what you name the parameter, as long as you use the same name inside the function. So, you could have said this (don’t actually type this):
 
@@ -386,7 +564,7 @@ irb> cat + cat + cat
 irb> end
 ~~~
 
-Anyway, let’s test our new function!  Type **`triple 3`** in irb, and hit Enter.
+Anyway, let’s test our new function!  Type `triple 3` in irb, and hit Enter.
 
 {lang="text"}
 ~~~
@@ -416,29 +594,66 @@ We’ve now made 2 functions! In the Exercises, we'll make 3 more! Leave irb ope
 
 3. Write a function called quad3 to quadruple a number by using the double function you made before.
 
-You can see the [answers to the exercises](#ch4answers), or just continue to the next chapter.
+You can see the [answers to the exercises](#lesson4answers), or just continue to the quiz.
 
-# Chapter 5: Programs {#ch5}
+{#lesson4quiz}
+## Quiz
 
-If you haven't quit irb, quit it now.  Then start irb again by typing **`irb`** in Terminal. (If Terminal isn't running, start it using Spotlight, and go into your stuff directory by typing **`cd stuff`**.  Then run irb by typing **`irb`**.)
+{quiz, id: quiz4}
+For this quiz, assume that the following has been done in `irb`:
 
-In the last chapter, we made two functions. The **`double`** function doubled a number, and the **`triple`** function tripled it.
+```
+irb> def square(x)
+irb> x*x
+irb> end
+=> :square
+irb> def cube(x)
+irb> x*x*x
+irb> end
+=> :cube
+```
+
+? What does `square(5)` return?
+
+a) 5
+b) 10
+C) 25
+d) 50
+e) 125
+
+? What does `cube(5)` return?
+
+a) 5
+b) 10
+c) 25
+d) 50
+E) 125
+{/quiz}
+
+{#lesson5}
+# Lesson 5: Programs
+
+## Material
+
+If you haven't quit irb, quit it now. Then start irb again by typing `irb` in Terminal. (If Terminal isn't running, start it using Spotlight, and go into your stuff directory by typing `cd stuff`. Then run irb by typing `irb`.)
+
+In the last lesson, we made two functions. The `double` function doubled a number, and the `triple` function tripled it.
 
 Let's try running those again.
 
-Type **`double 2`** in irb.  Then try **`triple 3`**.  Assuming you quit irb and restarted it, you will see something like this.
+Type `double 2` in irb. Then try `triple 3`. Assuming you quit irb and restarted it, you will see something like this.
 
 ![Where Did Our Functions Go?](images/wheredidfunctionsgo.png)
 
 The functions we made are gone!
 
-The reason for this is that we didn't make them in a program file; we just made them in irb.  So, when we quit irb, they were lost.
+The reason for this is that we didn't make them in a program file; we just made them in irb. So, when we quit irb, they were lost.
 
 Luckily, this is easy enough to fix!
 
-We already learned how to edit text files in nano.  We will make a new program file which contains our **`double`** and **`triple`** functions.  We will also make our program file test these functions!
+We already learned how to edit text files in nano. We will make a new program file which contains our `double` and `triple` functions. We will also make our program file test these functions!
 
-Quit irb by typing **`quit`**.  Then, open nano by typing **`nano`** in Terminal.
+Quit irb by typing `quit`. Then, open nano by typing `nano` in Terminal.
 
 Type the following Ruby code into the file.
 
@@ -456,45 +671,65 @@ puts double 2
 puts triple 3
 ~~~
 
-Then, save the file by typing **`Control + o`**.  Type **`times.rb`** and hit **`Enter`** to name the file **`times.rb`**.
+Then, save the file by typing `Control + o`. Type `times.rb` and hit `Enter` to name the file `times.rb`.
 
 ![](images/times.png)
 
-Now that you've saved the file, quit nano by typing **`Control + x`**.
+Now that you've saved the file, quit nano by typing `Control + x`.
 
 Let's run our program!
 
-Type **`ruby times.rb`** in Terminal, and hit **`Enter`**.  You will see something like this:
+Type `ruby times.rb` in Terminal, and hit `Enter`. You will see something like this:
 
 ![](images/times_output.png)
 
-The first line shows the number `4`. This is the result of calling the **`double`** function with the number `2`, and printing the return value with **`puts`**.
+The first line shows the number `4`. This is the result of calling the `double` function with the number `2`, and printing the return value with `puts`.
 
-The second line shows the number `9`. This is the result of calling the **`triple`** function with the number `3`, and printing the return value with **`puts`**.
+The second line shows the number `9`. This is the result of calling the `triple` function with the number `3`, and printing the return value with `puts`.
 
-What do you think would have happened if you hadn't said **`puts`** in the last 2 lines of your program?
+What do you think would have happened if you hadn't said `puts` in the last 2 lines of your program?
 
-We'll learn that in the next chapter...
+We'll learn that in the next lesson...
 
 ## Exercises
 
-1. Add a `quadruple` function to your program in your times.rb file. Also, test it afterward, in the times.rb file, by quadrupling 4.  To open times.rb in nano, type `nano times.rb`.
+1. Add a `quadruple` function to your program in your times.rb file. Also, test it afterward, in the times.rb file, by quadrupling 4. To open times.rb in nano, type `nano times.rb`.
 
-You can see the [answers to the exercises](#ch5answers), or just continue to the next chapter.
+You can see the [answers to the exercises](#lesson5answers), or just continue to the quiz.
 
-# Chapter 6: Functions, Part 2 {#ch6}
+{#lesson5quiz}
+## Quiz
 
-Way back in the first chapter about functions, I said that a function is something that does some stuff and returns a value.  The return value is the answer.
+{quiz, id: quiz5}
+? If you define a function in `irb` and then quit `irb`, is it there the next time you start `irb`?
 
-Open a Terminal window, **`cd`** into the **`stuff`** directory, and open **`irb`**.
+a) yes
+B) no
+c) it depends
+
+? How do you run Ruby code that you have defined in a file called `foo`?
+
+a) rb foo
+B) ruby foo
+c) run foo
+{/quiz}
+
+{#lesson6}
+# Lesson 6: Functions, Part 2
+
+## Material
+
+Way back in the first lesson about functions, I said that a function is something that does some stuff and returns a value. The return value is the answer.
+
+Open a Terminal window, `cd` into the `stuff` directory, and open `irb`.
 
 (By the way, you just understood that sentence. Think about how far you've come already!)
 
 Let's look more closely at what it means to return a value.
 
-First, we're going to load the times.rb program into irb.  By doing this, we will import our functions from the times.rb program into the running irb, so that we can call those functions again!
+First, we're going to load the times.rb program into irb. By doing this, we will import our functions from the times.rb program into the running irb, so that we can call those functions again!
 
-The way we do this is by typing **`load 'times.rb'`** in irb.  (Make sure to type the single quotes, which are beside the Enter key.)  You will see something like this:
+The way we do this is by typing `load 'times.rb'` in irb. (Make sure to type the single quotes, which are beside the Enter key.)  You will see something like this:
 
 {lang="text"}
 ~~~
@@ -505,7 +740,7 @@ irb> load 'times.rb'
 => true
 ~~~
 
-If you did not follow along with the last chapter exercises, you will just see:
+If you did not follow along with the last lesson exercises, you will just see:
 
 {lang="text"}
 ~~~
@@ -515,21 +750,21 @@ irb> load 'times.rb'
 => true
 ~~~
 
-If you do not see this, and instead see a `LoadError`, you either started irb from somewhere other than the `stuff` directory, or you didn't follow along with the last chapter or its exercises.  If that happened, quit irb with **`quit`** and **`cd`** into your **`stuff`** directory.  Make the **`times.rb`** file if necessary, then continue.
+If you do not see this, and instead see a `LoadError`, you either started irb from somewhere other than the `stuff` directory, or you didn't follow along with the last lesson or its exercises. If that happened, quit irb with `quit` and `cd` into your `stuff` directory. Make the `times.rb` file if necessary, then continue.
 
 Anyway, now that you're here, I'm going to assume you've followed along!
 
-When you load the **`times.rb`** file into **`irb`**, you see the same output that you saw when you ran the **`times.rb`** program on the command line using **`ruby times.rb`** in the last chapter.
+When you load the `times.rb` file into `irb`, you see the same output that you saw when you ran the `times.rb` program on the command line using `ruby times.rb` in the last lesson.
 
-This is because when you use the **`load`** command, you actually run the program!
+This is because when you use the `load` command, you actually run the program!
 
 You see 4 (which is the double of 2) and 9 (which is the triple of 3).
 
-But what is that **`=> true`** thing?
+But what is that `=> true` thing?
 
 That is the return value of running the program. When we do things in irb, it helpfully prints the return value.
 
-So, for example, if you type **`double 2`** in irb, you see 4:
+So, for example, if you type `double 2` in irb, you see 4:
 
 {lang="text"}
 ~~~
@@ -537,7 +772,7 @@ irb> double 2
 => 4
 ~~~
 
-Now, in the `times.rb` program we said **`puts double 2`** to print the double of 2.  Let's try this in irb:
+Now, in the `times.rb` program we said `puts double 2` to print the double of 2. Let's try this in irb:
 
 {lang="text"}
 ~~~
@@ -546,15 +781,15 @@ irb> puts double 2
 => nil
 ~~~
 
-So, here we see the same 4 that got printed when we ran **`ruby times.rb`** from the command line.  But we also see **`=> nil`**.  This is the return value of calling **`puts double 2`**.
+So, here we see the same 4 that got printed when we ran `ruby times.rb` from the command line. But we also see `=> nil`. This is the return value of calling `puts double 2`.
 
 This is the secret!
 
-It turns out that **`puts`** is just a function!
+It turns out that `puts` is just a function!
 
-The **`puts`** function is just like the **`double`** and **`triple`** functions you made earlier!  The return value of **`puts`** is **`nil`**.  So, when you call **`puts`** in irb, it prints **`=> nil`**.  But when you call the **`puts`** function normally in a program, Ruby just prints what **`puts`** tells it to, and doesn't print the return value of **`puts`**.  That's good, since **`nil`** is pretty boring!
+The `puts` function is just like the `double` and `triple` functions you made earlier!  The return value of `puts` is `nil`. So, when you call `puts` in irb, it prints `=> nil`. But when you call the `puts` function normally in a program, Ruby just prints what `puts` tells it to, and doesn't print the return value of `puts`. That's good, since `nil` is pretty boring!
 
-So, let's do some fun stuff!  You already know that typing **`double 2`** in irb returns 4.
+So, let's do some fun stuff!  You already know that typing `double 2` in irb returns 4.
 
 {lang="text"}
 ~~~
@@ -562,7 +797,7 @@ irb> double 2
 => 4
 ~~~
 
-What do you think happens if you type **`double double 2`** in irb?
+What do you think happens if you type `double double 2` in irb?
 
 Well, irb is going to print the return value of all this. But what is it?
 
@@ -576,7 +811,7 @@ Is that a surprise?
 
 Let's figure out how this works.
 
-What do you think happens if you type **`double 4`** in irb?
+What do you think happens if you type `double 4` in irb?
 
 {lang="text"}
 ~~~
@@ -590,19 +825,19 @@ But you know what?
 
 2 times 2 is 4.
 
-So, calling **`double 2`** is going to return 4.
+So, calling `double 2` is going to return 4.
 
-And then, we are going to call **`double`** with this return value.
+And then, we are going to call `double` with this return value.
 
-So, **`double double 2`** is the same thing as **`double 4`** which, as we saw, is 8.
+So, `double double 2` is the same thing as `double 4` which, as we saw, is 8.
 
 Now, this can get confusing.
 
 So, one thing you can do is put things in brackets, to make it clearer what is going on.
 
-Try typing **`double(double(2))`** in irb.
+Try typing `double(double(2))` in irb.
 
-To type **`(`** you type **`shift + 9`**, and to type **`)`** you type **`shift + 0`**.
+To type `(` you type `shift + 9`, and to type `)` you type `shift + 0`.
 
 {lang="text"}
 ~~~
@@ -610,9 +845,9 @@ irb> double(double(2))
 => 8
 ~~~
 
-So, we got 8 again.  But the brackets show that we are first doing double(2), and then we are putting that return value into another call to double().
+So, we got 8 again. But the brackets show that we are first doing double(2), and then we are putting that return value into another call to double().
 
-What do you think is returned if you do **`triple(double(2))`**?
+What do you think is returned if you do `triple(double(2))`?
 
 {lang="text"}
 ~~~
@@ -620,11 +855,11 @@ irb> triple(double(2))
 => 12
 ~~~
 
-Do you see?  2 times 2 is 4, so **`double(2)`** will return 4.  This 4 is then passed into the **`triple`** function.  And 3 times 4 is 12.  So, **`triple(4)`** will return 12.
+Do you see?  2 times 2 is 4, so `double(2)` will return 4. This 4 is then passed into the `triple` function. And 3 times 4 is 12. So, `triple(4)` will return 12.
 
 That's exactly what happened!
 
-But what do you think happens if you try typing **`double(triple(2))`**?
+But what do you think happens if you try typing `double(triple(2))`?
 
 {lang="text"}
 ~~~
@@ -636,29 +871,29 @@ It's also 12!
 
 This is because 3 times 2 is 6, so triple(2) is 6. And 2 times 6 is 12, so double(6) is 12.
 
-This is actually a rule about multiplication: the order does not matter. But you'll learn that in school in an older grade!  (And, when you do, you can tell your teacher that you learned that from this book already!)
+This is actually a rule about multiplication: the order does not matter. But you'll learn that in school in an older grade!  (And, when you do, you can tell your teacher that you learned that from this course already!)
 
-By the way, before we stop this chapter, I'm getting tired of writing times as "times".  So, I'm going to start writing times as **`*`** instead of `times` or `x`.  The word `times` is too annoying to type, and the letter `x` could get confused for a function parameter (like we saw before) or variable (like we will see).
+By the way, before we stop this lesson, I'm getting tired of writing times as "times". So, I'm going to start writing times as `*` instead of `times` or `x`. The word `times` is too annoying to type, and the letter `x` could get confused for a function parameter (like we saw before) or variable (like we will see).
 
 We programmers are really lazy!
 
-One more thing before we stop this chapter:
+One more thing before we stop this lesson:
 
 What do you think this returns?
 
-**`triple(double(triple(2)))`**
+`triple(double(triple(2)))`
 
 If that's too many brackets, you can also type that as:
 
-**`triple double triple 2`**
+`triple double triple 2`
 
 You don't need the brackets, since Ruby figures out the right thing to do here!
 
 The way this works is as follows:
 
-1. Ruby figures out that **`triple(2)`** is 6, since 3*2 = 6.
-2. Ruby figures out that **`double(6)`** is 12, since 2*6 = 12.  So, **`double(triple(2))`** is 12.
-3. Ruby figures out that **`triple(12)`** is 36, since 3*12 = 36.  So, **`triple(double(triple(2)))`** is 36.
+1. Ruby figures out that `triple(2)` is 6, since 3*2 = 6.
+2. Ruby figures out that `double(6)` is 12, since 2*6 = 12. So, `double(triple(2))` is 12.
+3. Ruby figures out that `triple(12)` is 36, since 3*12 = 36. So, `triple(double(triple(2)))` is 36.
 
 If you look at these steps, this is the order of the function calls and return values:
 
@@ -670,7 +905,7 @@ triple(12)
 36
 ~~~
 
-So, the return value is **`36`**.
+So, the return value is `36`.
 
 Phew!  That took a long time for us to do!  Luckily, this is the type of thing that computers are really, really good at doing.
 
@@ -678,7 +913,7 @@ Phew!  That took a long time for us to do!  Luckily, this is the type of thing t
 
 Setup:
 
-These exercises assume that you did the exercises from the last chapter where you made a `quadruple` function in the `times.rb` file. If you did not do that, do it now.  If you had to quit irb, then when you restart it you need to remember to load the times.rb file by typing **`load 'times.rb'`** in irb.
+These exercises assume that you did the exercises from the last lesson where you made a `quadruple` function in the `times.rb` file. If you did not do that, do it now. If you had to quit irb, then when you restart it you need to remember to load the times.rb file by typing `load 'times.rb'` in irb.
 
 1. In irb, write and test a new `times6` function that uses a combination of the `double` and `triple` functions to return 6 times the number it was given.
 
@@ -686,31 +921,69 @@ These exercises assume that you did the exercises from the last chapter where yo
 
 3. In irb, write and test a new `times12b` function that uses the new `times6` function and some other function to return 12 times the number it was given.
 
-4. Quit irb, then use nano to open the times.rb file with `nano times.rb`.  Use nano to add `times6` and `times12` functions to your times.rb file. You can either just return `x*6` and `x*12`, or you can use whatever combination of the `double`, `triple`, `quadruple` and `times6` functions you want.  Also, test your functions in the times.rb file by doing `6 * 6` (which is 36) and `12 * 12` (which is 144).
+4. Quit irb, then use nano to open the times.rb file with `nano times.rb`. Use nano to add `times6` and `times12` functions to your times.rb file. You can either just return `x*6` and `x*12`, or you can use whatever combination of the `double`, `triple`, `quadruple` and `times6` functions you want. Also, test your functions in the times.rb file by doing `6 * 6` (which is 36) and `12 * 12` (which is 144).
 
-You can see the [answers to the exercises](#ch6answers), or just continue to the next chapter.
+You can see the [answers to the exercises](#lesson6answers), or just continue to the quiz.
 
-# Chapter 7: Characters and Strings {#ch7}
+{#lesson6quiz}
+## Quiz
 
-So far, we've done a lot of stuff with numbers.  In this chapter, we will look at how to do stuff with words.
+{quiz, id: quiz6}
+
+Assume the following Ruby code is in the file `foo.rb`:
+
+{lang="text"}
+~~~
+def double(x)
+x*2
+end
+
+def triple(y)
+y*3
+end
+~~~
+
+? How would you load these functions into `irb`?
+
+a) open foo
+b) load foo
+c) load 'foo'
+D) load 'foo.rb'
+
+? Assume that you have loaded the functions from `foo.rb` above. How would you multiply the number 3 by 6?
+
+a) triple double 3
+b) double triple 3
+c) triple(double(3))
+d) double(triple(3))
+e) 3 * 6
+F) all of the above
+{/quiz}
+
+{#lesson7}
+# Lesson 7: Characters and Strings
+
+## Material
+
+So far, we've done a lot of stuff with numbers. In this lesson, we will look at how to do stuff with words.
 
 In Ruby, and in most programming languages, words are handled differently from numbers.
 
-A word can be thought of as a sequence of letters.  By sequence, I mean a bunch of letters in a row.  For example, the word "word" is a sequence of 4 letters, **w**, **o**, **r** and **d**.
+A word can be thought of as a sequence of letters. By sequence, I mean a bunch of letters in a row. For example, the word "word" is a sequence of 4 letters, w, o, r and d.
 
-A number can be thought of as a sequence of digits.  For example, the number 12 is a sequence of two digits, **1** and **2**.
+A number can be thought of as a sequence of digits. For example, the number 12 is a sequence of two digits, 1 and 2.
 
-More generally, anything you can type on your keyboard, whether it is a letter, a number or other stuff like spaces, symbols like (!@#$%^&*) or punctuation like ,.- can be thought of as a **character**.
+More generally, anything you can type on your keyboard, whether it is a letter, a number or other stuff like spaces, symbols like (!@#$%^&*) or punctuation like ,.- can be thought of as a character.
 
 So, a word or a number or a whole sentence is just a sequence of characters.
 
-But, "sequence of characters" is annoying to type and say, so we just say **string** instead.  If you think about beads, you can arrange them on a string to make a necklace.  But in a computer, you can arrange characters in a string to make words, sentences and other stuff.
+But, "sequence of characters" is annoying to type and say, so we just say string instead. If you think about beads, you can arrange them on a string to make a necklace. But in a computer, you can arrange characters in a string to make words, sentences and other stuff.
 
-In this chapter, we're going to play with characters and strings.
+In this lesson, we're going to play with characters and strings.
 
 Let's open up irb. (As always, if you are starting here, you start Terminal, type `cd stuff` to go into the `stuff` directory, and then type `irb` to start irb.)
 
-First, let's just say "hello" in irb by typing the string **`"hello"`** in quotes.
+First, let's just say "hello" in irb by typing the string `"hello"` in quotes.
 
 {lang="text"}
 ~~~
@@ -718,9 +991,9 @@ irb> "hello"
 => "hello"
 ~~~
 
-As always, irb prints what the return value is. The return value of "hello" is "hello".  So, saying "hello" returns "hello".
+As always, irb prints what the return value is. The return value of "hello" is "hello". So, saying "hello" returns "hello".
 
-Let's do something more interesting.  Type **`"hello".length`** in irb.
+Let's do something more interesting. Type `"hello".length` in irb.
 
 {lang="text"}
 ~~~
@@ -728,9 +1001,9 @@ irb> "hello".length
 => 5
 ~~~
 
-Cool!  The length of "hello" is 5, since there are 5 letters in the word hello.  Or, in programmer terms, there are 5 characters in the string "hello".
+Cool!  The length of "hello" is 5, since there are 5 letters in the word hello. Or, in programmer terms, there are 5 characters in the string "hello".
 
-***
+*
 
 Note that there are at least 2 ways to get the above example wrong.
 
@@ -752,7 +1025,7 @@ And, if you only do the first quote, irb will just sit there.
 irb(main):007:0> "hello.length
 ~~~
 
-The reason is that irb is waiting for the string to be finished.  So, to fix that, just type a " on a line by itself and hit Enter.  Then, you will be back at the irb prompt and you can try the example again.
+The reason is that irb is waiting for the string to be finished. So, to fix that, just type a " on a line by itself and hit Enter. Then, you will be back at the irb prompt and you can try the example again.
 
 {lang="text"}
 ~~~
@@ -763,9 +1036,9 @@ irb> "hello".length
 => 5
 ~~~
 
-***
+*
 
-If you are wondering, `length` is actually a function.  In Ruby and in many programming languages, functions are organized in things called "objects".  And in Ruby, a string is actually an object as well as a sequence of characters.  We'll talk more about objects later.
+If you are wondering, `length` is actually a function. In Ruby and in many programming languages, functions are organized in things called "objects". And in Ruby, a string is actually an object as well as a sequence of characters. We'll talk more about objects later.
 
 Let's try another function!
 
@@ -775,7 +1048,7 @@ irb> "hello".reverse
 => "olleh"
 ~~~
 
-In Ruby, strings know how to reverse themselves.  So, `olleh` is `hello` backwards.
+In Ruby, strings know how to reverse themselves. So, `olleh` is `hello` backwards.
 
 What happens if we do this the other way?
 
@@ -787,7 +1060,7 @@ irb> "hello".reverse.reverse
 => "hello"
 ~~~
 
-Of course, this works with more than just words.  Let's see how many characters are in this next sentence!
+Of course, this works with more than just words. Let's see how many characters are in this next sentence!
 
 {lang="text"}
 ~~~
@@ -795,11 +1068,11 @@ irb> "This is 4 words".length
 => 15
 ~~~
 
-So, there are 15 characters in that sentence.  Remember that the count of characters includes everything inside the quotes, including the spaces.
+So, there are 15 characters in that sentence. Remember that the count of characters includes everything inside the quotes, including the spaces.
 
-Finally, we can put things inside a string.  This is known by the fancy word "interpolation", which basically means to stick stuff in the middle.  So, let's say we want irb to tell us what 2+2 is, but in a nice sentence.
+Finally, we can put things inside a string. This is known by the fancy word "interpolation", which basically means to stick stuff in the middle. So, let's say we want irb to tell us what 2+2 is, but in a nice sentence.
 
-Type **`"2 + 2 is #{2+2}."`** in irb.  To type the # character, hold the `shift` key down and press `3`.  To type the `{` character, hold the `shift` key down and type `[` (by the `Enter` key).  To type the `}` character, hold the `shift` key down and type `]` (also by the `Enter` key).
+Type `"2 + 2 is #{2+2}."` in irb. To type the # character, hold the `shift` key down and press `3`. To type the `{` character, hold the `shift` key down and type `[` (by the `Enter` key). To type the `}` character, hold the `shift` key down and type `]` (also by the `Enter` key).
 
 {lang="text"}
 ~~~
@@ -807,9 +1080,9 @@ irb> "2 + 2 is #{2+2}."
 => "2 + 2 is 4"
 ~~~
 
-One more thing: remember the **say** command we used in chapter 1?  That's actually a program.
+One more thing: remember the say command we used in lesson 1?  That's actually a program.
 
-And in Ruby, we can run programs by putting them in backticks.  The backtick character
+And in Ruby, we can run programs by putting them in backticks. The backtick character
 
 {lang="text"}
 ~~~
@@ -818,7 +1091,7 @@ And in Ruby, we can run programs by putting them in backticks.  The backtick cha
 
 is above the `Tab` key.
 
-So, let's have `irb` use the `say` program to tell us what 2 + 2 is.  Note that there is a backtick at the beginning and at the end of the irb command.
+So, let's have `irb` use the `say` program to tell us what 2 + 2 is. Note that there is a backtick at the beginning and at the end of the irb command.
 
 {lang="text"}
 ~~~
@@ -826,9 +1099,9 @@ irb> `say "2 plus 2 is #{2+2}"`
 => ""
 ~~~
 
-By the way, note that the return value of calling `say` is nothing.  So, instead of seeing `"2 plus 2 is 4"`, we see `""`.  That is a string with nothing in it.  We call a string with no characters in it an "empty string".
+By the way, note that the return value of calling `say` is nothing. So, instead of seeing `"2 plus 2 is 4"`, we see `""`. That is a string with nothing in it. We call a string with no characters in it an "empty string".
 
-In the rest of the book, we'll do lots with strings.  But for now, let's take a break!  Quit irb by typing **`quit`**.
+In the rest of the course, we'll do lots with strings. But for now, let's take a break!  Quit irb by typing `quit`.
 
 {lang="text"}
 ~~~
@@ -868,17 +1141,47 @@ It would be a lot nicer if we saw this:
 ~/stuff[]$
 ~~~
 
-1. Use nano to change the code in the times.rb file to show what is being multiplied.  You do not need to modify the functions themselves, just the uses of the functions.  (In other words, only change every line with a `puts` in it.) Remember to modify every line that has a `puts` function.  Run the times.rb program with `ruby times.rb` to check.
+1. Use nano to change the code in the times.rb file to show what is being multiplied. You do not need to modify the functions themselves, just the uses of the functions. (In other words, only change every line with a `puts` in it.) Remember to modify every line that has a `puts` function. Run the times.rb program with `ruby times.rb` to check.
 
-2. Use irb to find out what your name is backwards.  Remember to start irb!
+2. Use irb to find out what your name is backwards. Remember to start irb!
 
-You can see the [answers to the exercises](#ch7answers), or just continue to the next chapter.
+You can see the [answers to the exercises](#lesson7answers), or just continue to the quiz.
 
-# Chapter 8: Variables {#ch8}
+{#lesson7quiz}
+## Quiz
 
-In the last chapter, we were writing stuff like `"hello".reverse` and `"olleh".reverse`.  That was a bit annoying to type, wasn't it?
+{quiz, id: quiz7}
 
-Let's fix this by making a **variable**.  A variable is just a container for something.  Think of it like a box or a bucket that can hold either a number, or a string, or anything you choose.
+For each question, what is the result of the following expression in `irb`?
+
+? `"hello".reverse.reverse.reverse`
+
+a) "hello"
+B) "olleh"
+c) NoMethodError: undefined method `reverse' for "hello":String
+
+? `"hello".reverse.reverse.reverse.reverse`
+
+A) "hello"
+b) "olleh"
+c) NoMethodError: undefined method `reverse' for "hello":String
+
+? `"hello".length * 3`
+
+a) 5
+B) 15
+c) NoMethodError: undefined method `*' for "hello":String
+
+{/quiz}
+
+{#lesson8}
+# Lesson 8: Variables
+
+## Material
+
+In the last lesson, we were writing stuff like `"hello".reverse` and `"olleh".reverse`. That was a bit annoying to type, wasn't it?
+
+Let's fix this by making a variable. A variable is just a container for something. Think of it like a box or a bucket that can hold either a number, or a string, or anything you choose.
 
 Start irb and try the following (remember the quotes!):
 
@@ -888,9 +1191,9 @@ irb> x = "hello"
 => "hello"
 ~~~
 
-We start by creating a variable called `x` that holds the string "hello".  If you imagine a box, we put the string `hello` in the box.
+We start by creating a variable called `x` that holds the string "hello". If you imagine a box, we put the string `hello` in the box.
 
-Let's check what's in the box.  Remember that irb prints the value of what it evaluates.  (Evaluate is a complicated idea, but basically it means to check the value.  For a variable, the value is the contents of the variable.  You might remember that earlier we saw that for a function call, the value is the return value from the function.)
+Let's check what's in the box. Remember that irb prints the value of what it evaluates. (Evaluate is a complicated idea, but basically it means to check the value. For a variable, the value is the contents of the variable. You might remember that earlier we saw that for a function call, the value is the return value from the function.)
 
 So, let's just say `x` in irb:
 
@@ -926,7 +1229,7 @@ irb> y = x.reverse
 => "olleh"
 ~~~
 
-So, the result of `x.reverse` is "olleh", which is assigned to y.  The value returned by the assignemnt is "olleh", so that's what irb prints.
+So, the result of `x.reverse` is "olleh", which is assigned to y. The value returned by the assignemnt is "olleh", so that's what irb prints.
 
 Let's check that y really holds `olleh`, by asking irb to evaluate y:
 
@@ -944,7 +1247,7 @@ irb> y.reverse
 => "hello"
 ~~~
 
-Now, variables aren't just for holding strings.  You can put anything in a variable.  Let's put a number in a new variable called **`i`**:
+Now, variables aren't just for holding strings. You can put anything in a variable. Let's put a number in a new variable called `i`:
 
 {lang="text"}
 ~~~
@@ -990,9 +1293,9 @@ Now, how about this:
 irb> x + y
 ~~~
 
-Well, x is "hello" and y is "olleh".  What does it mean to add strings together?
+Well, x is "hello" and y is "olleh". What does it mean to add strings together?
 
-In Ruby, it means to literally stick them together!  This is called **concatenating**, which is pronounced "con cat n ate ing". Concatenating is just a fancy word for sticking stuff together.
+In Ruby, it means to literally stick them together!  This is called concatenating, which is pronounced "con cat n ate ing". Concatenating is just a fancy word for sticking stuff together.
 
 Here's what you get:
 
@@ -1017,7 +1320,7 @@ irb> x.length + i
 => 6
 ~~~
 
-How about let's do something silly and try x + i.  What do you think happens when we try to add a string and a number?
+How about let's do something silly and try x + i. What do you think happens when we try to add a string and a number?
 
 {lang="text"}
 ~~~
@@ -1028,7 +1331,7 @@ TypeError: can't convert Fixnum into String
 	from :0
 ~~~
 
-It doesn't work!  Here, irb is complaining that you can't add a String and a Fixnum (what Ruby is calling the number 1) together, since they are different types of objects.  We will learn more about objects in a few chapters.
+It doesn't work!  Here, irb is complaining that you can't add a String and a Fixnum (what Ruby is calling the number 1) together, since they are different types of objects. We will learn more about objects in a few lessons.
 
 ## Exercises
 
@@ -1038,20 +1341,51 @@ It doesn't work!  Here, irb is complaining that you can't add a String and a Fix
 
 3. Create a variable called `c` that has the value "hello world". (Remember the quotes!)
 
-4. Create a variable called `d` that has the value of the **length** of the string "hello world".
+4. Create a variable called `d` that has the value of the length of the string "hello world".
 
-You can see the [answers to the exercises](#ch8answers), or just continue to the next chapter.
+You can see the [answers to the exercises](#lesson8answers), or just continue to the quiz.
 
-# Chapter 9: Command Line Input {#ch9}
+{#lesson8quiz}
+## Quiz
 
-In the last chapter, we learned about variables.  However, without inputs, variables are pretty useless.  We were doing stuff like `x = "hello"`, but that was just a way of saving a bit of typing.  Our variables weren't varying much at all!
+{quiz, id: quiz8}
+
+? What is the value of x after the following in irb?
+
+```
+irb> x = "hello".length
+```
+
+a) 0
+B) 5
+c) "hello"
+d) SyntaxError: "hello".length
+
+? What is the value of x after the following in irb?
+
+```
+irb> x = "hello" + "hello"
+```
+
+a) "hello hello"
+B) "hellohello"
+c) 5
+d) SyntaxError: TypeError: no implicit conversion of Fixnum into String
+{/quiz}
+
+{#lesson9}
+# Lesson 9: Command Line Input
+
+## Material
+
+In the last lesson, we learned about variables. However, without inputs, variables are pretty useless. We were doing stuff like `x = "hello"`, but that was just a way of saving a bit of typing. Our variables weren't varying much at all!
 
 There are two ways that a command line program typically gets input:
 
 1. from the command line
 2. from a file
 
-In this chapter, we're going to learn the command line approach.
+In this lesson, we're going to learn the command line approach.
 
 The inputs we capture will go in variables, and then we'll be able to do fun stuff with them.
 
@@ -1068,7 +1402,7 @@ irb> end
 => nil
 ~~~
 
-The `gets` function reads a line of command line input and returns it.  We store the result of `gets` in a variable called `s`.  We then use `puts` to print the result of reversing `s`.
+The `gets` function reads a line of command line input and returns it. We store the result of `gets` in a variable called `s`. We then use `puts` to print the result of reversing `s`.
 
 Let's try our function!  Type `reverse` in irb.
 
@@ -1099,11 +1433,11 @@ olleh
 => nil
 ~~~
 
-That was cool.  But one thing we could improve is that our function is currently returning `nil`.
+That was cool. But one thing we could improve is that our function is currently returning `nil`.
 
 Functions should return meaningful results, not just print things.
 
-Let's make the reverse function return the result of reversing the input it got.  We will redefine the reverse function like this.  You need to type this again to redefine the `reverse` function:
+Let's make the reverse function return the result of reversing the input it got. We will redefine the reverse function like this. You need to type this again to redefine the `reverse` function:
 
 {lang="text"}
 ~~~
@@ -1116,7 +1450,7 @@ irb> end
 => nil
 ~~~
 
-Now, let's test our function again.  Type reverse, and then type hello and Enter.
+Now, let's test our function again. Type reverse, and then type hello and Enter.
 
 {lang="text"}
 ~~~
@@ -1129,9 +1463,9 @@ olleh
 
 So, we returned "olleh" as expected, but we have this strange `\n` thing at the front of it!  What's that?
 
-It is the newline character, which is what is produced on your Mac when you hit Enter.  (On Windows computers, pressing Enter actually produces two characters, `\r` and `\n`.  This kind of garbage can make programming annoying at times!)
+It is the newline character, which is what is produced on your Mac when you hit Enter. (On Windows computers, pressing Enter actually produces two characters, `\r` and `\n`. This kind of garbage can make programming annoying at times!)
 
-We don't want the newline in our return value!  To get rid of it, we will use the `strip` function that Ruby `String`s have.  Redefine the reverse function again like this:
+We don't want the newline in our return value!  To get rid of it, we will use the `strip` function that Ruby `String`s have. Redefine the reverse function again like this:
 
 {lang="text"}
 ~~~
@@ -1144,7 +1478,7 @@ irb> end
 => nil
 ~~~
 
-Here we are calling `strip` on the result of `s.reverse`.  We are then assigning the return value to r.  This type of thing where we call a function on the result of another function is called **chaining**, and it's why we want our functions to always return meaningful values.
+Here we are calling `strip` on the result of `s.reverse`. We are then assigning the return value to r. This type of thing where we call a function on the result of another function is called chaining, and it's why we want our functions to always return meaningful values.
 
 Let's test our new and improved reverse function!
 
@@ -1158,7 +1492,7 @@ olleh
 
 Now we have the return value of "olleh" as we wanted, without the `\n` newline that we stripped.
 
-Let's try something a bit more interesting.  We will build a function that adds 2 numbers that the user specifies on the command line.  (To type the underscore character `_` hold down the `shift` key and type the minus key which is beside the 0.)
+Let's try something a bit more interesting. We will build a function that adds 2 numbers that the user specifies on the command line. (To type the underscore character `_` hold down the `shift` key and type the minus key which is beside the 0.)
 
 {lang="text"}
 ~~~
@@ -1188,19 +1522,21 @@ Second
 
 One little detail I glossed over is that to get each number, we are chaining `gets.strip.to_i`.
 
-Here's how this chaining works.  Say the user types 2 and hits Enter:
+Here's how this chaining works. Say the user types 2 and hits Enter:
 
-1. To get a line of command line input, we use `gets`.  The value of the string is `2\n`.  The `gets` function always gets a string.  That's what the s in gets is for!
-2. To remove the newline (`\n`), we feed the output of gets into strip.  The value of the string is now `2`.
-3. To turn the string into a number, we use `to_i`.  This converts the `2` string into the number 2.
+1. To get a line of command line input, we use `gets`. The value of the string is `2\n`. The `gets` function always gets a string. That's what the s in gets is for!
+2. To remove the newline (`\n`), we feed the output of gets into strip. The value of the string is now `2`.
+3. To turn the string into an integer (a whole number with no remainder or fractional part), we use `to_i`. This converts the `2` string into the number 2.
+
+Note that some text or a number in quotes is a string, whereas a number not in quotes is a number. So, "2" is a string,  and 2 is a number.
 
 ## Exercises
 
 ### Question 1
 
-Write a function called `hi` that asks for the user's name by saying "name?", gets it from the command line and returns "Hello " plus the string.  Do not include the newline that you get from the input.  Test your function with your name!  (For me, the function says "Hello Peter".)  It doesn't matter what you call your variable, but if you want to match the answer, call it `n`.
+Write a function called `hi` that asks for the user's name by saying "name?", gets it from the command line and returns "Hello " plus the string. Do not include the newline that you get from the input. Test your function with your name!  (For me, the function says "Hello Peter".)  It doesn't matter what you call your variable, but if you want to match the answer, call it `n`.
 
-Here's what you type in irb.  Well, you need to fill in the body of the `hi` function with your code, of course!
+Here's what you type in irb. Well, you need to fill in the body of the `hi` function with your code, of course!
 
 {lang="text"}
 ~~~
@@ -1216,9 +1552,9 @@ Peter
 
 ### Question 2
 
-Write a function called `cat` that asks for two strings on the commmand line and returns the concatenated string together.  (Concatenating means to stick the two strings together, and is done with `+`.  If you forget how to do this, take a peek back at the previous chapter!)  To ask for each string, just print the text "input?".  Do not include the newlines.  Test your function with the strings "one" and "two".  The result should be "onetwo".  It doesn't matter what you call your variables, but if you want to match the answer, call them `a` and `b`.
+Write a function called `cat` that asks for two strings on the commmand line and returns the concatenated string together. (Concatenating means to stick the two strings together, and is done with `+`. If you forget how to do this, take a peek back at the previous lesson!)  To ask for each string, just print the text "input?". Do not include the newlines. Test your function with the strings "one" and "two". The result should be "onetwo". It doesn't matter what you call your variables, but if you want to match the answer, call them `a` and `b`.
 
-Here's what you type in irb.  Well, you need to fill in the body of the `cat` function with your code, of course!
+Here's what you type in irb. Well, you need to fill in the body of the `cat` function with your code, of course!
 
 {lang="text"}
 ~~~
@@ -1234,21 +1570,73 @@ two
 => "onetwo"
 ~~~
 
-You can see the [answers to the exercises](#ch9answers), or just continue to the next chapter.
+You can see the [answers to the exercises](#lesson9answers), or just continue to the quiz.
 
-# Chapter 10: Arrays and Looping {#ch10}
+{#lesson9quiz}
+## Quiz
 
-So far in this book, we've been working with single things.  We've played with strings like `"hello"`, or variables like x that hold numbers like `2` or strings like, well, `"hello"`.
+{quiz, id: quiz9}
+? What does `gets` do?
 
-But one of the things computers are really good at is dealing with a bunch of stuff.  Say, millions of strings, like all the names in a phone book.  (If you've never seen a phone book: Once upon a time, phones were things that were mounted on walls.  To dial a number you turned a dial which had holes for your fingers.  These phones didn't even have cameras or any apps!  There was no Google back then, so to find a phone number you looked it up in a book of phone numbers called a "phone book".)
+a) Get an `s`
+B) Get a line of command line input
+c) Open a file called `s`
 
-In this chapter, we're going to learn how to work with **arrays**, which can hold anything from a list of numbers to all the entries in a phone book.
+? What is the value of s after the following in irb?
+
+```
+irb> s = gets
+foo
+```
+
+a) ""
+b) "foo"
+C) "foo\n"
+d) "\n"
+
+? What is the value of s after the following in irb?
+
+```
+irb> s = gets.strip
+foo
+```
+
+a) ""
+B) "foo"
+c) "foo\n"
+d) "\n"
+e) SyntaxError: "gets.strip"
+
+? What is the value of s after the following in irb?
+
+```
+irb> s = gets.strip.to_i
+5
+```
+
+a) ""
+b) "5\n"
+c) "5"
+D) 5
+e) SyntaxError: "gets.strip.to_i"
+{/quiz}
+
+{#lesson10}
+# Lesson 10: Arrays and Looping
+
+## Material
+
+So far in this course, we've been working with single things. We've played with strings like `"hello"`, or variables like x that hold numbers like `2` or strings like, well, `"hello"`.
+
+But one of the things computers are really good at is dealing with a bunch of stuff. Say, millions of strings, like all the names in a phone book. (If you've never seen a phone book: Once upon a time, phones were things that were mounted on walls. To dial a number you turned a dial which had holes for your fingers. These phones didn't even have cameras or any apps!  There was no Google back then, so to find a phone number you looked it up in a book of phone numbers called a "phone book".)
+
+In this lesson, we're going to learn how to work with arrays, which can hold anything from a list of numbers to all the entries in a phone book.
 
 Start irb.
 
 We will start by making a new array called `a`, and filling it with some numbers.
 
-To type the square brackets **`[`** and **`]`** you hit the keys to the right of the `p` key.
+To type the square brackets `[` and `]` you hit the keys to the right of the `p` key.
 
 {lang="text"}
 ~~~
@@ -1258,7 +1646,7 @@ irb> a
 => [5, 2, 4, 1, 3]
 ~~~
 
-Every different thing in the array is called an **element** of the array.  This array `a` has 5 elements.
+Every different thing in the array is called an element of the array. This array `a` has 5 elements.
 
 Arrays in Ruby are objects, and they come with some handy built-in functions.
 
@@ -1272,7 +1660,7 @@ irb> a.sort
 => [1, 2, 3, 4, 5]
 ~~~
 
-Now, this does not actually change the array a itself!  To see that, just type `a` and Enter again.  It is unchanged from when we created it.
+Now, this does not actually change the array a itself!  To see that, just type `a` and Enter again. It is unchanged from when we created it.
 
 {lang="text"}
 ~~~
@@ -1280,7 +1668,7 @@ irb> a
 => [5, 2, 4, 1, 3]
 ~~~
 
-If we want to modify the `a` array, we can use a function called `sort!` (yes, the exclamation mark ! is part of the name).  Type `a.sort!` in irb:
+If we want to modify the `a` array, we can use a function called `sort!` (yes, the exclamation mark ! is part of the name). Type `a.sort!` in irb:
 
 {lang="text"}
 ~~~
@@ -1288,7 +1676,7 @@ irb> a.sort!
 => [1, 2, 3, 4, 5]
 ~~~
 
-The return value here is the sorted array, just like before.  Now type `a` and Enter again, however:
+The return value here is the sorted array, just like before. Now type `a` and Enter again, however:
 
 {lang="text"}
 ~~~
@@ -1298,11 +1686,11 @@ irb> a
 
 This time the array `a` is sorted.
 
-In Ruby, functions which modify the thing they operate on are often named with an exclamation mark `!` at the end of the name.  Normal functions which just return a new value but leave the thing they operate on unchanged do not have an exclamation mark at the end of the name.  By the way, since we programmers are lazy, we often say "bang" instead of "exclamation mark".  So, the `sort!` function would be called "sort bang", instead of the normal "sort" function.
+In Ruby, functions which modify the thing they operate on are often named with an exclamation mark `!` at the end of the name. Normal functions which just return a new value but leave the thing they operate on unchanged do not have an exclamation mark at the end of the name. By the way, since we programmers are lazy, we often say "bang" instead of "exclamation mark". So, the `sort!` function would be called "sort bang", instead of the normal "sort" function.
 
-So, now we have a nicely sorted array.  One thing that is useful to do with arrays is to "loop" over them, processing each element one at a time.
+So, now we have a nicely sorted array. One thing that is useful to do with arrays is to "loop" over them, processing each element one at a time.
 
-In most programming languages, the way you do this is with a `for` loop or a `while` loop, and we will look at those approaches later.  But in Ruby, there are some easy built-in ways to loop over things.  These are called blocks.  The easiest way to learn blocks is to type an example. To type the `|` character (called a "pipe"), hold the `shift` key and type `\` (above the Enter key):
+In most programming languages, the way you do this is with a `for` loop or a `while` loop, and we will look at those approaches later. But in Ruby, there are some easy built-in ways to loop over things. These are called blocks. The easiest way to learn blocks is to type an example. To type the `|` character (called a "pipe"), hold the `shift` key and type `\` (above the Enter key):
 
 {lang="text"}
 ~~~
@@ -1317,9 +1705,9 @@ irb> end
 => [1, 2, 3, 4, 5]
 ~~~
 
-Here, we are processing each element of the array `a`, one at a time.  The element we are processing is loaded into the `item`.  Just like functions have parameters, blocks have parameters too.  The block parameter is like a variable, which is set to the given element we are processing.  When we are done, the entire array is returned.
+Here, we are processing each element of the array `a`, one at a time. The element we are processing is loaded into the `item`. Just like functions have parameters, blocks have parameters too. The block parameter is like a variable, which is set to the given element we are processing. When we are done, the entire array is returned.
 
-You can also do this on one line with curly braces `{` and `}` instead of `do` and `end`.  (But, you can't use both `do` ... `end` and `{` ... `}` at the same time!)
+You can also do this on one line with curly braces `{` and `}` instead of `do` and `end`. (But, you can't use both `do` ... `end` and `{` ... `}` at the same time!)
 
 {lang="text"}
 ~~~
@@ -1332,7 +1720,7 @@ irb> a.each {|item| puts item}
 => [1, 2, 3, 4, 5]
 ~~~
 
-Also, there's nothing special about the name `item`, it's just the name we chose for our block parameter.  We could have called it anything:
+Also, there's nothing special about the name `item`, it's just the name we chose for our block parameter. We could have called it anything:
 
 {lang="text"}
 ~~~
@@ -1345,7 +1733,7 @@ irb> a.each {|i| puts i}
 => [1, 2, 3, 4, 5]
 ~~~
 
-Arrays don't just hold numbers, they can hold anything.  Let's make a new array called `b` that holds some strings.
+Arrays don't just hold numbers, they can hold anything. Let's make a new array called `b` that holds some strings.
 
 {lang="text"}
 ~~~
@@ -1374,7 +1762,7 @@ ytsat
 => ["cake", "is", "tasty"]
 ~~~
 
-Doing this did not modify the original array though.  We can check that by typing `b` and Enter again:
+Doing this did not modify the original array though. We can check that by typing `b` and Enter again:
 
 {lang="text"}
 ~~~
@@ -1464,27 +1852,99 @@ irb> b
 
 2. Use `map!` to put `b` back to being ["cake", "is", "tasty"]. Verify that `b` is changed afterward by typing `b` and Enter.
 
-3. Use `each` and `puts` to print all the elements in `b`.  Use the curly brace `{` and `}` style here.
+3. Use `each` and `puts` to print all the elements in `b`. Use the curly brace `{` and `}` style here.
 
-4. Use `each` to print 3 plus all the elements in `a`.  Use the `do` ... `end` style here.
+4. Use `each` to print 3 plus all the elements in `a`. Use the `do` ... `end` style here.
 
-5. If you multiply a number by itself you are "squaring" the number.  Use `each` and `puts` to print the result of multiplying all the numbers in `a` by themselves.
+5. If you multiply a number by itself you are "squaring" the number. Use `each` and `puts` to print the result of multiplying all the numbers in `a` by themselves.
 
-By the way, did you notice that in question 2 you had already typed it exactly?  The `reverse` function works both ways!  (My son thought this was a good joke when I showed him :)  In irb you can just type the up arrow to get access to your previous typing.  So if you just hit the up arrow a few times you could get back to `b.map! {|item| item.reverse}` and not have to type it again!
+By the way, did you notice that in question 2 you had already typed it exactly?  The `reverse` function works both ways!  (My son thought this was a good joke when I showed him :)  In irb you can just type the up arrow to get access to your previous typing. So if you just hit the up arrow a few times you could get back to `b.map! {|item| item.reverse}` and not have to type it again!
 
-You can see the [answers to the exercises](#ch10answers), or just continue to the next chapter.
+You can see the [answers to the exercises](#lesson10answers), or just continue to the quiz.
 
-# Chapter 11: Files {#ch11}
+{#lesson10quiz}
+## Quiz
 
-Back in chapter 9 we learned how to get input from the command line.  In this chapter, we will learn how to get input from files!
+{quiz, id: quiz10}
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = [5,2,4,1,3]
+=> [5, 2, 4, 1, 3]
+irb> a.sort
+=> [1, 2, 3, 4, 5]
+irb> a
+=>
+```
+
+a) []
+b) [1, 2, 3, 4, 5]
+C) [5, 2, 4, 1, 3]
+d) [5, 4, 3, 2, 1]
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = [5,2,4,1,3]
+=> [5, 2, 4, 1, 3]
+irb> a.sort!
+=> [1, 2, 3, 4, 5]
+irb> a
+=>
+
+? How many lines of output are printed by the following (not including the return value with `=>`)?
+
+irb> a = [5,2,4,1,3]
+=> [5, 2, 4, 1, 3]
+irb> a.each {|i| puts i}
+```
+
+a) 0
+b) 1
+C) 5
+d) 10
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = [5,2,4,1,3]
+=> [5, 2, 4, 1, 3]
+irb> a.sort.map {|i| i+1}
+```
+
+a) [1, 2, 3, 4, 5]
+b) [2, 3, 4, 5, 6]
+c) [6, 3, 5, 2, 4]
+D) [5, 2, 4, 1, 3]
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = [5,2,4,1,3]
+=> [5, 2, 4, 1, 3]
+irb> a = a.sort.map {|i| i+1}
+```
+
+a) [1, 2, 3, 4, 5]
+B) [2, 3, 4, 5, 6]
+c) [6, 3, 5, 2, 4]
+d) [5, 2, 4, 1, 3]
+{/quiz}
+
+{#lesson11}
+# Lesson 11: Files
+
+## Material
+
+Back in lesson 9 we learned how to get input from the command line. In this lesson, we will learn how to get input from files!
 
 First, we need to create a file to get some input from.
 
-Start Terminal and `cd` into the stuff directory by tying `cd stuff` and pressing the Enter key.  If you are still in irb from the last chapter, you need to quit irb first by typing `quit` and pressing the Enter key.
+Start Terminal and `cd` into the stuff directory by tying `cd stuff` and pressing the Enter key. If you are still in irb from the last lesson, you need to quit irb first by typing `quit` and pressing the Enter key.
 
 Start nano by typing `nano` and pressing the Enter key in Terminal.
 
-We are going to create a file with a list of words, one per line.  Type the following in nano, making sure to put an extra blank line at the end of the file (after you type `pear`, hit Enter twice):
+We are going to create a file with a list of words, one per line. Type the following in nano, making sure to put an extra blank line at the end of the file (after you type `pear`, hit Enter twice):
 
 {lang="text"}
 ~~~
@@ -1495,7 +1955,7 @@ pear
 
 ~~~
 
-To save the file, hold down the `control` key and type the `o` key.  Nano will ask you for a filename.  Type `words.txt` and press the Enter key.  Then quit nano by holding down the `control` key and type the `x` key.
+To save the file, hold down the `control` key and type the `o` key. Nano will ask you for a filename. Type `words.txt` and press the Enter key. Then quit nano by holding down the `control` key and type the `x` key.
 
 Let's check that we created the file correctly by using the `cat` program to print the file:
 
@@ -1510,13 +1970,13 @@ pear
 ~/stuff[]$
 ~~~
 
-If you didn't get this, or if this did not make any sense, you should quickly re-read chapter 1 to refresh your memory about how to use nano!
+If you didn't get this, or if this did not make any sense, you should quickly re-read lesson 1 to refresh your memory about how to use nano!
 
 Start irb.
 
 Let's play with this file!
 
-We are going to start by opening up the file, reading every line and printing it.  This sounds complicated, right?  Well, in Ruby, it's easy: it's just a small loop, using a block.  Type these 3 lines.  Note that when you type `File` the `F` is a capital `F`.  Also, there is a period (`.`) between `File` and `foreach`:
+We are going to start by opening up the file, reading every line and printing it. This sounds complicated, right?  Well, in Ruby, it's easy: it's just a small loop, using a block. Type these 3 lines. Note that when you type `File` the `F` is a capital `F`. Also, there is a period (`.`) between `File` and `foreach`:
 
 {lang="text"}
 ~~~
@@ -1559,7 +2019,7 @@ irb> lines.map! {|line| line.strip}
 
 At this point, the lines variable is an array with each line without the newlines.
 
-But, we have an empty string in the last element of the lines array.  We don't want that either!  Let's get rid of it, using the `reject!` function.
+But, we have an empty string in the last element of the lines array. We don't want that either!  Let's get rid of it, using the `reject!` function.
 
 {lang="text"}
 ~~~
@@ -1569,11 +2029,11 @@ irb> lines.reject! {|line| line.empty?}
 
 That's better!
 
-The `reject!` function works by throwing away every element which matches the test inside the block.  For us, the test was `line.empty?`.  So, this is how we used `reject!` to get rid of all the blank lines.  (There is both a `reject` and a `reject!` version: `reject` does not modify the original array, while `reject!` does.  This is just like the `map` and `map!` or `sort` and `sort!` functions.)
+The `reject!` function works by throwing away every element which matches the test inside the block. For us, the test was `line.empty?`. So, this is how we used `reject!` to get rid of all the blank lines. (There is both a `reject` and a `reject!` version: `reject` does not modify the original array, while `reject!` does. This is just like the `map` and `map!` or `sort` and `sort!` functions.)
 
-By the way, you may be wondering why I made sure you added a blank line in nano, just to go to the work of `reject`ing it here.  The reason is simple: part of programming is dealing with inputs that might not be exactly how you want them.  So, you need to make sure that everything is fine before proceeding, instead of just charging ahead hopefully.
+By the way, you may be wondering why I made sure you added a blank line in nano, just to go to the work of `reject`ing it here. The reason is simple: part of programming is dealing with inputs that might not be exactly how you want them. So, you need to make sure that everything is fine before proceeding, instead of just charging ahead hopefully.
 
-Anyway, let's now print the lines.  For variety, we'll use `do` ... `end` not `{` ... `}`.  (In practice, the usual style is to use `{` ... `}` for one line loops, and `do` ... `end` for multiple line loops.)
+Anyway, let's now print the lines. For variety, we'll use `do` ... `end` not `{` ... `}`. (In practice, the usual style is to use `{` ... `}` for one line loops, and `do` ... `end` for multiple line loops.)
 
 {lang="text"}
 ~~~
@@ -1587,11 +2047,11 @@ pear
 => ["apple", "banana", "peach", "pear"]
 ~~~
 
-Before we stop this chapter, let's actually write a program!
+Before we stop this lesson, let's actually write a program!
 
-We've been spending a lot of chapters just playing in irb.  While this is fun, it's not permanent.  When we quit irb, we lose the work we've done!
+We've been spending a lot of lessons just playing in irb. While this is fun, it's not permanent. When we quit irb, we lose the work we've done!
 
-We are going to write a program called `doge`.  What it will do is print all the lines of a file, like `cat` does.  But, it will also say the lines.  Also, at the start of the program it will print and say "wow", and at the end of the program it will print and say "so amaze".  (No, this is not good grammar!  But memes on the internet don't have good grammar usually...)
+We are going to write a program called `doge`. What it will do is print all the lines of a file, like `cat` does. But, it will also say the lines. Also, at the start of the program it will print and say "wow", and at the end of the program it will print and say "so amaze". (No, this is not good grammar!  But memes on the internet don't have good grammar usually...)
 
 Quit irb, then start nano.
 
@@ -1599,9 +2059,9 @@ You're going to write the longest program you've ever written!
 
 Let's start by defining a function called `putsay`.
 
-This function will use `puts` to print whatever string it is given as a parameter.  We will call the parameter `str`, for string.
+This function will use `puts` to print whatever string it is given as a parameter. We will call the parameter `str`, for string.
 
-It will then use the `say` command to say the string.  We use the backticks to run the say command.  To type a backtick, press the key to the left of the 1.  Make sure you type **both** backticks, the one before `say` and the one after `#{str}`.  To type a #, hold the `shift` key and type 3.  Also, note that you are in nano, so if you make a mistake, don't worry, just fix it!
+It will then use the `say` command to say the string. We use the backticks to run the say command. To type a backtick, press the key to the left of the 1. Make sure you type both backticks, the one before `say` and the one after `#{str}`. To type a #, hold the `shift` key and type 3. Also, note that you are in nano, so if you make a mistake, don't worry, just fix it!
 
 {lang="text"}
 ~~~
@@ -1611,9 +2071,9 @@ def putsay(str)
 end
 ~~~
 
-After the `end` statement, hit Enter twice.  This adds a newline and a blank line.  You need the newline after the `end`.  The second newline is just so our program looks nice.)
+After the `end` statement, hit Enter twice. This adds a newline and a blank line. You need the newline after the `end`. The second newline is just so our program looks nice.)
 
-Then, add the following code.  Again, the `File` needs a capital `F`, and there is a period (`.`) between `File` and `readlines`.  Also, make sure you add the quotes before and after `words.txt`:
+Then, add the following code. Again, the `File` needs a capital `F`, and there is a period (`.`) between `File` and `readlines`. Also, make sure you add the quotes before and after `words.txt`:
 
 {lang="text"}
 ~~~
@@ -1633,7 +2093,7 @@ Here's what this code does:
 2. We then get rid of the newlines using `map`.
 3. We then get rid of the blank lines using `reject`.
 4. We use `putsay` to print and say "wow".
-5. We then loop over all the lines in the `lines` array using a block.  For each line, we call the `putsay` function we defined.
+5. We then loop over all the lines in the `lines` array using a block. For each line, we call the `putsay` function we defined.
 6. Finally, we use putsay to print and say "so amaze".
 
 Before you save the file, make sure it looks like this:
@@ -1655,7 +2115,7 @@ end
 putsay "so amaze"
 ~~~
 
-To save the file, hold down the `control` key and type the `o` key.  Nano will ask you for a filename.  Type `doge.rb` and press the Enter key.
+To save the file, hold down the `control` key and type the `o` key. Nano will ask you for a filename. Type `doge.rb` and press the Enter key.
 
 Then quit nano by holding down the `control` key and type the `x` key.
 
@@ -1682,23 +2142,118 @@ Great job!  This was the most complex program you've ever written...
 
 ## Exercises
 
-1. Make the `doge` program reverse the order of the words in the array.  (Arrays have a `reverse!` and a `reverse` function.)
+1. Make the `doge` program reverse the order of the words in the array. (Arrays have a `reverse!` and a `reverse` function.)
 
-2. Arrays also have `shuffle` and `shuffle!` functions.  These functions take no arguments and randomize the order of the elements of the array.  (The `shuffle!` version modifies the original array, while the `shuffle` version does not.)  Use one of those functions to make the `doge` program print the words in the array in a random order.  Test this a few times to convince yourself that the order is indeed changing.
+2. Arrays also have `shuffle` and `shuffle!` functions. These functions take no arguments and randomize the order of the elements of the array. (The `shuffle!` version modifies the original array, while the `shuffle` version does not.)  Use one of those functions to make the `doge` program print the words in the array in a random order. Test this a few times to convince yourself that the order is indeed changing.
 
-You can see the [answers to the exercises](#ch11answers), or just continue to the next chapter.
+You can see the [answers to the exercises](#lesson11answers), or just continue to the quiz.
 
-# Chapter 12: Booleans, If and While {#ch12}
+{#lesson11quiz}
+## Quiz
 
-Programs are built out of functions, and out of series of statements.  But there is one other really important thing that programs are built on:
+{quiz, id: quiz11}
+Note that with all of the "What is value of `a`" questions below, I am *NOT* asking "what is printed by `irb` after the last command. I'm asking "What would be printed by `irb` if I typed `a` and hit Enter at the `irb> ` prompt afterward. Think carefully. (You can also check the answer in `irb` if you wish.)
+
+? How would you use the `say` console command from inside `irb` to say "hi"?
+
+a) say("hi")
+b) say "hi"
+c) say `hi`
+D) `say "hi"`
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = [5,2,4,1,3]
+=> [5, 2, 4, 1, 3]
+irb> a.reject {|i| i % 2 == 0}
+```
+
+A) [5, 2, 4, 1, 3]
+b) [5, 1, 3]
+c) [1, 2, 3, 4, 5]
+d) [1, 3, 5]
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = [5,2,4,1,3]
+=> [5, 2, 4, 1, 3]
+irb> a.reject! {|i| i % 2 == 0}
+```
+
+a) [5, 2, 4, 1, 3]
+B) [5, 1, 3]
+c) [1, 2, 3, 4, 5]
+d) [1, 3, 5]
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = [5,2,4,1,3]
+=> [5, 2, 4, 1, 3]
+irb> a.sort.reject {|i| i % 2 == 0}
+```
+
+A) [5, 2, 4, 1, 3]
+b) [5, 1, 3]
+c) [1, 2, 3, 4, 5]
+d) [1, 3, 5]
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = [5,2,4,1,3]
+=> [5, 2, 4, 1, 3]
+irb> a = a.sort.reject {|i| i % 2 == 0}
+```
+
+a) [5, 2, 4, 1, 3]
+b) [5, 1, 3]
+c) [1, 2, 3, 4, 5]
+D) [1, 3, 5]
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = [5,2,4,1,3]
+=> [5, 2, 4, 1, 3]
+irb> a.sort.reject! {|i| i % 2 == 0}
+```
+
+A) [5, 2, 4, 1, 3]
+b) [5, 1, 3]
+c) [1, 2, 3, 4, 5]
+d) [1, 3, 5]
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = [5,2,4,1,3]
+=> [5, 2, 4, 1, 3]
+irb> a.sort!.reject! {|i| i % 2 == 0}
+```
+
+a) [5, 2, 4, 1, 3]
+b) [5, 1, 3]
+c) [1, 2, 3, 4, 5]
+D) [1, 3, 5]
+{/quiz}
+
+{#lesson12}
+# Lesson 12: Booleans, If and While
+
+## Material
+
+Programs are built out of functions, and out of series of statements. But there is one other really important thing that programs are built on:
 
 Making decisions.
 
 If we can teach our program to make decisions based on the truth or falseness of expressions and variables, then we can solve a lot of problems!  This includes deciding what to do using an `if` statement, and deciding whether to loop using a `while` loop.
 
-Anyway, we have some learning to do.  Start irb.
+Anyway, we have some learning to do. Start irb.
 
-In programming languages, truth is precisely defined.  (In human languages, it's trickier!)
+In programming languages, truth is precisely defined. (In human languages, it's trickier!)
 
 In Ruby, `true` is true and `false` is false:
 
@@ -1710,7 +2265,7 @@ irb> false
 => false
 ~~~
 
-You can also negate `true` and `false`.  In this sense, "negate" means to make `true` `false`, and `false` `true`.  The way you do this is with the `not` operator.
+You can also negate `true` and `false`. In this sense, "negate" means to make `true` `false`, and `false` `true`. The way you do this is with the `not` operator.
 
 {lang="text"}
 ~~~
@@ -1720,7 +2275,7 @@ irb> not false
 => true
 ~~~
 
-Now, in most programming languages, it is preferable to write not as `!` instead of as `not`.  Ruby is no exception here:
+Now, in most programming languages, it is preferable to write not as `!` instead of as `not`. Ruby is no exception here:
 
 {lang="text"}
 ~~~
@@ -1754,11 +2309,11 @@ irb> !f
 => true
 ~~~
 
-In programming languages like Ruby, true and false is not only precisely defined, it is also produced as a result of **boolean expressions**.  Boolean expressions are just expressions that produce either `true` or `false`.
+In programming languages like Ruby, true and false is not only precisely defined, it is also produced as a result of boolean expressions. Boolean expressions are just expressions that produce either `true` or `false`.
 
 (Different programming languages have their own quirks here, and Ruby is no different, so I'm glossing over some details.)
 
-To check if something is the same we use the **equality operator**, which is two equals signs `==`in a row.
+To check if something is the same we use the equality operator, which is two equals signs `==`in a row.
 
 {lang="text"}
 ~~~
@@ -1768,9 +2323,9 @@ irb> 2 == 3
 => false
 ~~~
 
-2 is equal to 2, so the first expression returns true.  And 2 is not equal to 3, so the second expression returns false.
+2 is equal to 2, so the first expression returns true. And 2 is not equal to 3, so the second expression returns false.
 
-You can use the equality operator to test more than just numbers.  For example, it can test strings.  (Don't forget the quotes here!  If you do not put quotes around the letters `a` and `b`, Ruby will get confused and think you are referring to some variables `a` and `b` that it does not know anything about.)
+You can use the equality operator to test more than just numbers. For example, it can test strings. (Don't forget the quotes here!  If you do not put quotes around the letters `a` and `b`, Ruby will get confused and think you are referring to some variables `a` and `b` that it does not know anything about.)
 
 {lang="text"}
 ~~~
@@ -1780,7 +2335,7 @@ irb> "a" == "b"
 => false
 ~~~
 
-There's also an **inequality operator**.  It is written as `!=` and it checks if two things are **not** equal:
+There's also an inequality operator. It is written as `!=` and it checks if two things are not equal:
 
 {lang="text"}
 ~~~
@@ -1814,7 +2369,7 @@ irb> x != 3
 => true
 ~~~
 
-This doesn't just work for numbers.  Let's try it with strings.
+This doesn't just work for numbers. Let's try it with strings.
 
 {lang="text"}
 ~~~
@@ -1828,7 +2383,7 @@ irb> y != "hi"
 => false
 ~~~
 
-Finally, you can work with the result of a boolean `==` or `!=` test.  Let's test if x is equal to 2, and assign the result of that test to the variable `u`.  We put `x == 2` in brackets to be clear about what happens first.
+Finally, you can work with the result of a boolean `==` or `!=` test. Let's test if x is equal to 2, and assign the result of that test to the variable `u`. We put `x == 2` in brackets to be clear about what happens first.
 
 {lang="text"}
 ~~~
@@ -1870,12 +2425,12 @@ Besides the equality `==` and inequality `!=` operators, there are other operato
 
 Some of the most common ones are ones that compare two things.
 
-- The **less than** operator `<` checks if one thing is less than another thing.
-- The **less than or equal to** operator `<=` checks if one thing is smaller than or the same as another thing.
-- The **greater than** operator `>` checks if one thing is bigger than another thing.
-- The **greater than or equal to** operator `>=` checks if one thing is bigger than or the same as another thing.
+- The less than operator `<` checks if one thing is less than another thing.
+- The less than or equal to operator `<=` checks if one thing is smaller than or the same as another thing.
+- The greater than operator `>` checks if one thing is bigger than another thing.
+- The greater than or equal to operator `>=` checks if one thing is bigger than or the same as another thing.
 
-Note that I said "thing" here, not "number".  This is because you can compare some things that aren't numbers using these operators.  However, usually you just compare numbers!
+Note that I said "thing" here, not "number". This is because you can compare some things that aren't numbers using these operators. However, usually you just compare numbers!
 
 By the way, if you need help remembering which is less than and which is greater than, less than `<` looks like an L that is leaning forward.
 
@@ -1899,7 +2454,7 @@ irb> 2 >= 2
 => true
 ~~~
 
-Now, this is a bit silly since you know what these expressions all are.  You know that 1 is less than 2; you don't need Ruby to tell you!
+Now, this is a bit silly since you know what these expressions all are. You know that 1 is less than 2; you don't need Ruby to tell you!
 
 The real use here is in comparing a variable to a number.
 
@@ -1915,11 +2470,11 @@ irb> n < 5
 => false
 ~~~
 
-Now, this is also contrived, since we know what n is.  But when you realize that you can set variables to values that came from anywhere, you can begin to see the power here.
+Now, this is also contrived, since we know what n is. But when you realize that you can set variables to values that came from anywhere, you can begin to see the power here.
 
 For example, we can set n to a number that we get from the terminal.
 
-Remember that you can get strings from the terminal using `gets`?  In irb, type `s = gets`, followed by the Enter key.  Then type hi and the Enter key.
+Remember that you can get strings from the terminal using `gets`?  In irb, type `s = gets`, followed by the Enter key. Then type hi and the Enter key.
 
 {lang="text"}
 ~~~
@@ -1940,7 +2495,7 @@ irb> s.strip
 
 We will do an example where we use `gets` to get a string from the terminal, `strip` to get rid of the newline, and `to_i` to turn it into a number.
 
-In irb, type `n = gets.strip.to_i`, followed by the Enter key.  Then type 8 and the Enter key.
+In irb, type `n = gets.strip.to_i`, followed by the Enter key. Then type 8 and the Enter key.
 
 {lang="text"}
 ~~~
@@ -1970,7 +2525,7 @@ irb> n < 5
 => true
 ~~~
 
-Anyway, back at the beginning of the chapter, we said that programs are built on making decisions, based on the truth or falseness of expressions or variables.
+Anyway, back at the beginning of the lesson, we said that programs are built on making decisions, based on the truth or falseness of expressions or variables.
 
 This is done in 2 ways:
 
@@ -1979,9 +2534,9 @@ This is done in 2 ways:
 
 Let's look at these both now, starting with the `if` statement.
 
-An `if` statement tests an expression or variable.  If it is true, the statements inside the `if` part are executed.  If it is false, the statements inside the `else` part are executed.
+An `if` statement tests an expression or variable. If it is true, the statements inside the `if` part are executed. If it is false, the statements inside the `else` part are executed.
 
-Here's how it works.  By the way, I indent the `puts "yes"` and `puts "no"` statements with spaces, but you do not have to:
+Here's how it works. By the way, I indent the `puts "yes"` and `puts "no"` statements with spaces, but you do not have to:
 
 {lang="text"}
 ~~~
@@ -1994,7 +2549,7 @@ yes
 => nil
 ~~~
 
-So, we only saw "yes" and not "no", since `true` is true.  The poor `puts "no"` statement will never be run.  The return value of this whole `if` statement is nil, which is why you see `=> nil` at the end.
+So, we only saw "yes" and not "no", since `true` is true. The poor `puts "no"` statement will never be run. The return value of this whole `if` statement is nil, which is why you see `=> nil` at the end.
 
 Let's get the `else` part to execute:
 
@@ -2009,7 +2564,7 @@ no
 => nil
 ~~~
 
-In this case, we only saw "no" and not "yes".  The poor `puts "yes"` statement will never be run.
+In this case, we only saw "no" and not "yes". The poor `puts "yes"` statement will never be run.
 
 You can also test a variable:
 
@@ -2078,7 +2633,7 @@ irb> end
 
 We can then call this function in the `if` test.
 
-Here, we call it with 1, which is not bigger than 2.  So, the function returns false, and the `else` case gets executed:
+Here, we call it with 1, which is not bigger than 2. So, the function returns false, and the `else` case gets executed:
 
 {lang="text"}
 ~~~
@@ -2091,7 +2646,7 @@ smaller
 => nil
 ~~~
 
-Here, we call it with 3, which is bigger than 2.  So, the function returns true, and the `if` case gets executed:
+Here, we call it with 3, which is bigger than 2. So, the function returns true, and the `if` case gets executed:
 
 {lang="text"}
 ~~~
@@ -2106,9 +2661,9 @@ bigger
 
 Besides just making decisions based on boolean expressions, we can also loop based on them.
 
-We will do this using a new programming concept: a `while` loop.  A `while` loop is basically a loop that does an `if` test in every cycle through the loop, and stops the loop when the test is `false`.
+We will do this using a new programming concept: a `while` loop. A `while` loop is basically a loop that does an `if` test in every cycle through the loop, and stops the loop when the test is `false`.
 
-Type this in irb.  When you are tired of seeing "still true" being printed, hold down the `control` key and type `c` to interrupt the loop from running.
+Type this in irb. When you are tired of seeing "still true" being printed, hold down the `control` key and type `c` to interrupt the loop from running.
 
 {lang="text"}
 ~~~
@@ -2125,11 +2680,11 @@ still true
 
 In this loop, `true` is always `true`, so the while loop will run forever, unless you stop it!
 
-When you write a computer program, you are telling the computer what to do.  The computer will do **exactly** what you tell it to do, even if you tell it to do something as stupid as print "still true" while `true` is `true`.
+When you write a computer program, you are telling the computer what to do. The computer will do exactly what you tell it to do, even if you tell it to do something as stupid as print "still true" while `true` is `true`.
 
-By the way, what we just did is create an **infinite loop**, since it will go forever (unless interrupted).  Usually, creating an infinite loop is a mistake (or "bug") in your program, but sometimes it is helpful to deliberately create infinte loops.
+By the way, what we just did is create an infinite loop, since it will go forever (unless interrupted). Usually, creating an infinite loop is a mistake (or "bug") in your program, but sometimes it is helpful to deliberately create infinte loops.
 
-*Also, as a bit of side trivia: you are using an Apple Mac to follow along with this book, and Apple's address is 1 Infinite Loop, Cupertino, California.*
+*Also, as a bit of side trivia: you are using an Apple Mac to follow along with this course, and Apple's address is 1 Infinite Loop, Cupertino, California.*
 
 Let's make a while loop that does something a bit useful: count from 0 to 10.
 
@@ -2155,9 +2710,9 @@ irb> end
 => nil
 ~~~
 
-The way this works is each time through the `while` loop, we are adding 1 to i.  If we did not put the `i = i + 1` statement in, the `while` loop would print `0` forever.
+The way this works is each time through the `while` loop, we are adding 1 to i. If we did not put the `i = i + 1` statement in, the `while` loop would print `0` forever.
 
-Throughout this book, I've been saying that programmers like me are lazy.  You know how lazy we are?  We don't even like typing things like `i = i + 1`.  We have a shortcut way of doing that in Ruby: the `+=` operator.  Let's count from 1 to 5 using `+=` to add 1 to i:
+Throughout this course, I've been saying that programmers like me are lazy. You know how lazy we are?  We don't even like typing things like `i = i + 1`. We have a shortcut way of doing that in Ruby: the `+=` operator. Let's count from 1 to 5 using `+=` to add 1 to i:
 
 {lang="text"}
 ~~~
@@ -2175,35 +2730,142 @@ irb> end
 => nil
 ~~~
 
-In many other programming languages, we can be ever lazier and say `i++` instead of `i += 1`.  But we can't do that in Ruby!
+In many other programming languages, we can be ever lazier and say `i++` instead of `i += 1`. But we can't do that in Ruby!
 
 ## Exercises
 
 1. In irb, test if 1 is equal to 1.
 
-2. In irb, test if 1 is equal to "1".  Can you guess why it is not equal?
+2. In irb, test if 1 is equal to "1". Can you guess why it is not equal?
 
-3. In irb, write a function called `same` which takes 2 parameters and prints "equal" if they are equal and prints "not equal" if they are not equal.  Test it with `same 1,1` and `same 1,2`.  Hint: the first line of the function is `def same(a,b)`.  You will use an `if` / `else` statement in the function.
+3. In irb, write a function called `same` which takes 2 parameters and prints "equal" if they are equal and prints "not equal" if they are not equal. Test it with `same 1,1` and `same 1,2`. Hint: the first line of the function is `def same(a,b)`. You will use an `if` / `else` statement in the function.
 
-4. In irb, write a `while` loop that multiplies `1*1`, `2*2`, `3*3`, all the way up to `12*12`.  Every answer should be printed on its own line, with `puts`.
+4. In irb, write a `while` loop that multiplies `1*1`, `2*2`, `3*3`, all the way up to `12*12`. Every answer should be printed on its own line, with `puts`.
 
-You can see the [answers to the exercises](#ch12answers), or just continue to the next chapter.
+You can see the [answers to the exercises](#lesson12answers), or just continue to the quiz.
 
-# Chapter 13: The Spelt Project {#ch13}
+{#lesson12quiz}
+## Quiz
+
+{quiz, id: quiz12}
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = true
+```
+
+A) true
+b) "true"
+c) false
+d) "false"
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = !true
+```
+
+a) true
+b) "true"
+C) false
+d) "false"
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = !!true
+```
+
+A) true
+b) "true"
+c) false
+d) "false"
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = !!!true
+```
+
+a) true
+b) "true"
+C) false
+d) "false"
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = !!!!!!true
+```
+
+A) true
+b) "true"
+c) false
+d) "false"
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = 1 == 1
+```
+
+A) true
+b) "true"
+c) false
+d) "false"
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = 1 == "1"
+```
+
+a) true
+b) "true"
+C) false
+d) "false"
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = 1 == "1".to_i
+```
+
+A) true
+b) "true"
+c) false
+d) "false"
+
+? What is the value of `a` after the following in irb?
+
+```
+irb> a = 1 == "1".to_f
+```
+
+A) true
+b) "true"
+c) false
+d) "false"
+{/quiz}
+
+{#lesson13}
+# Lesson 13: The Spelt Project
+
+## Material
 
 It's amazing what you've learned so far!
 
-In this chapter, we're going to put everything together and build our first meaningful program!  This program will take advantage of almost everything we have learned in this book.
+In this lesson, we're going to put everything together and build our first meaningful program!  This program will take advantage of almost everything we have learned in this course.
 
-This is the last chapter in the book.  It's also the longest chapter.  So, you should plan to take a bit more time to work through it.  I have split it into 3 sections.  Feel free to take a break after each section.
+This is the last lesson in the course. It's also the longest lesson. So, you should plan to take a bit more time to work through it. I have split it into 3 sections. Feel free to take a break after each section.
 
 ## Section 1: Spelling a Word
 
-The program we are going to build is called "spelt", and it will be a program that you can use to teach yourself how to spell words.  If you wonder where the name came from, spelt is a type of bread, and it's also the past tense of spell in the British version of English.  In US English, you say spelled, not spelt -- so for you, the name of the spelt program would be spelt incorrectly.  I like to make (bad) jokes for names of programs.
+The program we are going to build is called "spelt", and it will be a program that you can use to teach yourself how to spell words. If you wonder where the name came from, spelt is a type of bread, and it's also the past tense of spell in the British version of English. In US English, you say spelled, not spelt -- so for you, the name of the spelt program would be spelt incorrectly. I like to make (bad) jokes for names of programs.
 
-Anyway, enough of that.  We are going to start slowly, experimenting in irb.  Start irb.
+Anyway, enough of that. We are going to start slowly, experimenting in irb. Start irb.
 
-Let's use `say` to say the letter h.  Make sure you type the backticks at the beginning and the end of the command.  (The backtick is beside the `1` key.)
+Let's use `say` to say the letter h. Make sure you type the backticks at the beginning and the end of the command. (The backtick is beside the `1` key.)
 
 {lang="text"}
 ~~~
@@ -2211,7 +2873,7 @@ irb> `say "h"`
 => ""
 ~~~
 
-Great, we heard "h".  So, the `say` command can say individual letters.  Now, let's try `say` with just a space.
+Great, we heard "h". So, the `say` command can say individual letters. Now, let's try `say` with just a space.
 
 {lang="text"}
 ~~~
@@ -2221,9 +2883,9 @@ irb> `say " "`
 
 We didn't hear anything!
 
-In our spelling program `spelt`, we are going to be spelling things using say.  We will make a `say` function to help with this.
+In our spelling program `spelt`, we are going to be spelling things using say. We will make a `say` function to help with this.
 
-If our `say` function is given a letter, it will say the letter.  Otherwise, the `say` function should say "space".
+If our `say` function is given a letter, it will say the letter. Otherwise, the `say` function should say "space".
 
 So, we're going to use a function containing an `if` statement to accomplish this.
 
@@ -2245,21 +2907,21 @@ end
 
 Note that the `if str == " "` line has a space in between the opening and closing quotes!
 
-Here's how it works: If `say` is given a string which is `" "` (the space character), it will say "space".  Otherwise, it just calls the `say` command with whatever string was passed in, using the `#{}` syntax that we learned earlier.
+Here's how it works: If `say` is given a string which is `" "` (the space character), it will say "space". Otherwise, it just calls the `say` command with whatever string was passed in, using the `#{}` syntax that we learned earlier.
 
-Finally, the `say` function returns the string that it is given.  (We might as well return something, so that we can chain function calls together.)
+Finally, the `say` function returns the string that it is given. (We might as well return something, so that we can chain function calls together.)
 
-By the way, to indent the code inside a function, use two spaces per level of indent.  You don't have to indent the code if you don't want to.  (My son always refuses to, since in Ruby, the spaces don't matter.  But, in some languages, like Python and CoffeeScript, they do matter.)  Indenting is good practice, though, since it lets you read your own programs more easily.
+By the way, to indent the code inside a function, use two spaces per level of indent. You don't have to indent the code if you don't want to. (My son always refuses to, since in Ruby, the spaces don't matter. But, in some languages, like Python and CoffeeScript, they do matter.)  Indenting is good practice, though, since it lets you read your own programs more easily.
 
-Let's try this.  Save the file by typing `control` + `o`, typing the file name of **`spelt.rb`** and hitting the `Enter` key.
+Let's try this. Save the file by typing `control` + `o`, typing the file name of `spelt.rb` and hitting the `Enter` key.
 
-Nano will say "[ Wrote 7 lines ]".  (Or, if you have an extra newline at the end of the file, it will say "[ Wrote 8 lines ]".  Either is fine.
+Nano will say "[ Wrote 7 lines ]". (Or, if you have an extra newline at the end of the file, it will say "[ Wrote 8 lines ]". Either is fine.
 
 Quit nano by typing `control` + `x`.
 
 Next, start irb again.
 
-Load the `spelt` program by typing `load "spelt.rb"` and hitting `Enter`.  Then, let's test out our `say` function, first by trying `say "hi"`', then `say "h"`, `say " "` and finally `say "hello world"`.
+Load the `spelt` program by typing `load "spelt.rb"` and hitting `Enter`. Then, let's test out our `say` function, first by trying `say "hi"`', then `say "h"`, `say " "` and finally `say "hello world"`.
 
 {lang="text"}
 ~~~
@@ -2275,13 +2937,13 @@ irb> say "hello world"
 => "hello world"
 ~~~
 
-It works!  When our `say` function is given only a space, it says "space".  Otherwise, it says what it was given, whether it was a letter, or "hi" or "hello world".
+It works!  When our `say` function is given only a space, it says "space". Otherwise, it says what it was given, whether it was a letter, or "hi" or "hello world".
 
-Quit irb.  Next, open `spelt.rb` in nano by typing **`nano spelt.rb`** and hitting `Enter`.
+Quit irb. Next, open `spelt.rb` in nano by typing `nano spelt.rb` and hitting `Enter`.
 
-Next, we will add a `putsay` function to spelt, which will be similar to the one we created for our `doge` program.  This function will take a string as its parameter, and it will print the string using `puts` and say the string.  However, instead of using the `say` command in backticks, it will call our `say` function.
+Next, we will add a `putsay` function to spelt, which will be similar to the one we created for our `doge` program. This function will take a string as its parameter, and it will print the string using `puts` and say the string. However, instead of using the `say` command in backticks, it will call our `say` function.
 
-Scroll down to the bottom of the file (below the definition of the `say` function) using the down arrow.  Then, add a blank line and then this function:
+Scroll down to the bottom of the file (below the definition of the `say` function) using the down arrow. Then, add a blank line and then this function:
 
 {lang="text"}
 ~~~
@@ -2291,7 +2953,7 @@ def putsay(str)
 end
 ~~~
 
-The `putsay` function returns the string that it is given.  (We might as well return something, so that we can chain function calls.)
+The `putsay` function returns the string that it is given. (We might as well return something, so that we can chain function calls.)
 
 At this point, the `spelt.rb` program should look like this:
 
@@ -2312,9 +2974,9 @@ def putsay(str)
 end
 ~~~
 
-Note that the last statement in the `putsay` function is a function call: `say str`.  So, the `putsay` function returns the return value of this function call.  So, since `say` returns the string it is given, that is what `putsay` function will also return.
+Note that the last statement in the `putsay` function is a function call: `say str`. So, the `putsay` function returns the return value of this function call. So, since `say` returns the string it is given, that is what `putsay` function will also return.
 
-Save the file by typing `control` + `o` and then hitting the `Enter` key.  This will overwrite the `spelt.rb` file with our new version.
+Save the file by typing `control` + `o` and then hitting the `Enter` key. This will overwrite the `spelt.rb` file with our new version.
 
 Then, quit nano by typing `control` + `x`.
 
@@ -2344,7 +3006,7 @@ But, how are we going to do this?
 
 It turns out it is really easy!
 
-In Ruby, strings come with a bunch of functions.  One of them is called `split`, which returns an array of strings.
+In Ruby, strings come with a bunch of functions. One of them is called `split`, which returns an array of strings.
 
 What `split` does is best shown by example:
 
@@ -2354,11 +3016,11 @@ irb> "this is cool".split " "
 => ["this", "is", "cool"]
 ~~~
 
-The `split` function takes a string parameter which is used as a **delimiter**.  A delimiter means a thing that splits something into pieces, like slices in a loaf of bread.  It is the thing that you separate the array by.
+The `split` function takes a string parameter which is used as a delimiter. A delimiter means a thing that splits something into pieces, like slices in a loaf of bread. It is the thing that you separate the array by.
 
 So, calling `split` on "this is cool" with a delimiter of " " (space) turns into the array `["this", "is", "cool"]`.
 
-The split function always returns an array of strings.  Each string is the part of the string up to the first part of the string that matches the delimiter.  The delimiters themselves are not included in the returned array.  (There are no spaces in the array `["this", "is", "cool"]`.)
+The split function always returns an array of strings. Each string is the part of the string up to the first part of the string that matches the delimiter. The delimiters themselves are not included in the returned array. (There are no spaces in the array `["this", "is", "cool"]`.)
 
 Let's try calling `split` on "123.456.789" with a delimiter of "." (period).
 
@@ -2410,7 +3072,7 @@ Here, there is an empty string between every letter (or "character") in the stri
 
 This will let us spell words!  All we need to do is use `split` to print and say each letter.
 
-Let's use a block to do this!  A block, which we saw earlier in the book, is a way of looping through something:
+Let's use a block to do this!  A block, which we saw earlier in the course, is a way of looping through something:
 
 {lang="text"}
 ~~~
@@ -2427,13 +3089,13 @@ o
 => ["h", "e", "l", "l", "o"]
 ~~~
 
-As a piece of advice, you should try to keep your code as simple as possible.  That way, when (not if!) things go wrong with it, you will have an easier time finding the mistakes, or "bugs" in your code.  If you make your code complicated just to show off, you will end up wasting your own time later!
+As a piece of advice, you should try to keep your code as simple as possible. That way, when (not if!) things go wrong with it, you will have an easier time finding the mistakes, or "bugs" in your code. If you make your code complicated just to show off, you will end up wasting your own time later!
 
 Quit irb.
 
-Next, open `spelt.rb` in nano by typing **`nano spelt.rb`** and hitting `Enter`.
+Next, open `spelt.rb` in nano by typing `nano spelt.rb` and hitting `Enter`.
 
-We're going to make a spell function.  Now, in English, we don't normally write one letter per line.  So, we're going to make a slight changes to what we did in irb: we are going to say every letter without printing it.  So, we will use the `say` function we wrote, not the `putsay` function.  If we want to print the word, we can always just print it using puts.
+We're going to make a spell function. Now, in English, we don't normally write one letter per line. So, we're going to make a slight changes to what we did in irb: we are going to say every letter without printing it. So, we will use the `say` function we wrote, not the `putsay` function. If we want to print the word, we can always just print it using puts.
 
 {lang="text"}
 ~~~
@@ -2445,7 +3107,7 @@ def spell(str)
 end
 ~~~
 
-The first `end` is to end the do ... end loop over the characters (`char`) of the string `str`.  (For StarCraft players: Here, `char` is for "character", not for the Zerg homeworld!)  The second `end` is to end the function.  Indenting our code helps us keep track of the `def ... end` and `do ... end` pairs.
+The first `end` is to end the do ... end loop over the characters (`char`) of the string `str`. (For StarCraft players: Here, `char` is for "character", not for the Zerg homeworld!)  The second `end` is to end the function. Indenting our code helps us keep track of the `def ... end` and `do ... end` pairs.
 
 At this point, the `spelt.rb` program should look like this:
 
@@ -2473,7 +3135,7 @@ def spell(str)
 end
 ~~~
 
-Save the file by typing `control` + `o` and then hitting the `Enter` key.  This will overwrite the `spelt.rb` file with our new version.
+Save the file by typing `control` + `o` and then hitting the `Enter` key. This will overwrite the `spelt.rb` file with our new version.
 
 Then, quit nano by typing `control` + `x`.
 
@@ -2496,7 +3158,7 @@ irb> spell "hello world"
 You should have heard:
 `h e l l o space w o r l d`
 
-Awesome!  This might be a good point to take a small break.  You're about a third of the way through this last chapter!
+Awesome!  This might be a good point to take a small break. You're about a third of the way through this last lesson!
 
 ## Section 2: Finishing Spelt
 
@@ -2504,9 +3166,9 @@ What to do next?
 
 Well, if we're writing a spelling program, we need to have a way of defining a list of words that we should learn how to spell, right?
 
-Luckily, we already have one: two chapters ago, we wrote a program called `doge` where we read a list of words out of a file that had 1 word per line!
+Luckily, we already have one: two lessons ago, we wrote a program called `doge` where we read a list of words out of a file that had 1 word per line!
 
-This approach would be absolutely perfect for our `spelt` program.  What a coincidence! (wow, so amaze, wow :)
+This approach would be absolutely perfect for our `spelt` program. What a coincidence! (wow, so amaze, wow :)
 
 Quit irb.
 
@@ -2516,7 +3178,7 @@ Next, open `spelt.rb` in nano by typing
 
 and hitting `Enter`.
 
-Add this code to the bottom of the `spelt` program.  By the way, since this is a lot of typing, feel free to select the text, copy it to the clipboard with `command` + `c`, and paste it into nano with `command` + `v`.  You will need to reformat it though, to look like this...
+Add this code to the bottom of the `spelt` program. By the way, since this is a lot of typing, feel free to select the text, copy it to the clipboard with `command` + `c`, and paste it into nano with `command` + `v`. You will need to reformat it though, to look like this...
 
 {lang="text"}
 ~~~
@@ -2543,26 +3205,26 @@ putsay "You got #{num_right}" +
 
 Here's what this code does:
 
-1. We read all the lines in the `words.txt` file into an array, which is stored in a variable called `words`.  We are assuming there is a maximum of 1 word per line.
-2. We then get rid of the newlines using `map!`.  What `map!` does is modifies the array it is called on, and replaces each element of the array with the result of doing what is inside the block.  For us, we are calling `strip` on the line.  So, this code removes all the newlines.
+1. We read all the lines in the `words.txt` file into an array, which is stored in a variable called `words`. We are assuming there is a maximum of 1 word per line.
+2. We then get rid of the newlines using `map!`. What `map!` does is modifies the array it is called on, and replaces each element of the array with the result of doing what is inside the block. For us, we are calling `strip` on the line. So, this code removes all the newlines.
 3. We then get rid of the blank lines using `reject`.
-4. We get the number of words with `words.length` and store the number in `num_words`.    Arrays also have a `length` function which gets how long the array is.
+4. We get the number of words with `words.length` and store the number in `num_words`.   Arrays also have a `length` function which gets how long the array is.
 5. We use `putsay` to print and say "Welcome to Spelt".
 6. We use `putsay` to say how many words we are going to spell.
 7. We create a variable called `num_right` which will count the number of right answers.
-8. We then loop over all the words using a block.  For each word, we do this:
+8. We then loop over all the words using a block. For each word, we do this:
   a) We say "spell" and the word.
-  b) We get a line of input from the keyboard using `gets.strip` (which you saw earlier in the book) and store it in a variable called `answer`.
-  c) We check if the word is the same as the answer using another if statement, `if word == answer`.  If the if statement is true, then the user spelled the word right, so we add 1 to our count of right answers and then say "awesome".  If the if statement is not true, then we say "wrong".
-9. At the end, we say how many words were spelled right out of the total number of words.  Normally you would say `putsay "You got #{num_right} out of #{num_words}!"` instead of doing this on 2 lines with `putsay "You got #{num_right}" +` and `" out of #{num_words}!"`.  However, I did it this way so that the code did not break in the middle of the line in the book.
+  b) We get a line of input from the keyboard using `gets.strip` (which you saw earlier in the course) and store it in a variable called `answer`.
+  c) We check if the word is the same as the answer using another if statement, `if word == answer`. If the if statement is true, then the user spelled the word right, so we add 1 to our count of right answers and then say "awesome". If the if statement is not true, then we say "wrong".
+9. At the end, we say how many words were spelled right out of the total number of words. Normally you would say `putsay "You got #{num_right} out of #{num_words}!"` instead of doing this on 2 lines with `putsay "You got #{num_right}" +` and `" out of #{num_words}!"`. However, I did it this way so that the code did not break in the middle of the line in the course.
 
-By the way, this type of sequence of steps, loops and decisions has a really fancy name: an **algorithm**.
+By the way, this type of sequence of steps, loops and decisions has a really fancy name: an algorithm.
 
-An algorithm ("al go rith um") is the approach that we can use to solve a problem.  When we write algorithms, we typically combine a sequence of steps with if/else statements and loops that make decisions.  So, when we are writing computer programs and solving problems, we first come up with the algorithm and then we write the code.
+An algorithm ("al go rith um") is the approach that we can use to solve a problem. When we write algorithms, we typically combine a sequence of steps with if/else statements and loops that make decisions. So, when we are writing computer programs and solving problems, we first come up with the algorithm and then we write the code.
 
-Don't let the fancy name fool you: you use algorithms all the time.  Lots of the math you learn at school, stuff like 2 digit multiplication and long division, is just you learning an algorithm.  The steps you learn are the algorithm, and you are being taught how to "play computer" to use the algorithm to solve the problem.
+Don't let the fancy name fool you: you use algorithms all the time. Lots of the math you learn at school, stuff like 2 digit multiplication and long division, is just you learning an algorithm. The steps you learn are the algorithm, and you are being taught how to "play computer" to use the algorithm to solve the problem.
 
-Anyway, here's what the full `spelt` program looks like.  Make sure that your program looks like this:
+Anyway, here's what the full `spelt` program looks like. Make sure that your program looks like this:
 
 {lang="text"}
 ~~~
@@ -2608,7 +3270,7 @@ putsay "You got #{num_right}" +
 " out of #{num_words}!"
 ~~~
 
-Save the file by typing `control` + `o` and then hitting the `Enter` key.  This will overwrite the `spelt.rb` file with our new version.
+Save the file by typing `control` + `o` and then hitting the `Enter` key. This will overwrite the `spelt.rb` file with our new version.
 
 Then, quit nano by typing `control` + `x`.
 
@@ -2627,7 +3289,7 @@ We are going to spell 4 words.
 
 You will hear "spell apple".
 
-Let's deliberately make a mistake.  Type `a` + `Enter` instead of `apple`.  Then correctly spell `banana`, `peach` and `pear`.
+Let's deliberately make a mistake. Type `a` + `Enter` instead of `apple`. Then correctly spell `banana`, `peach` and `pear`.
 
 You will see this:
 
@@ -2644,7 +3306,7 @@ You got 3 out of 4!
 
 Also, if you had your sound on, you should have heard your program!
 
-This might be a good point to take another small break.  You're about two thirds of the way through this last chapter!
+This might be a good point to take another small break. You're about two thirds of the way through this last lesson!
 
 ## Section 3: Enhancing Spelt
 
@@ -2652,7 +3314,7 @@ One of the great things about programming is that you can constantly challenge y
 
 In this final section, we will do both, by enhancing our `spelt` program in two ways.
 
-First, just saying "wrong" when the user spells something wrong is not very helpful.  Let's make the `spelt` program teach the spelling of a word when it is spelled wrong!
+First, just saying "wrong" when the user spells something wrong is not very helpful. Let's make the `spelt` program teach the spelling of a word when it is spelled wrong!
 
 We are going to delete the
 
@@ -2697,7 +3359,7 @@ putsay "You got #{num_right}" +
 
 Here's what this code does:
 
-It loops while the word is not equal (`!=`) to the answer.  In each pass through the loop, the code...
+It loops while the word is not equal (`!=`) to the answer. In each pass through the loop, the code...
 
 1. says "The correct spelling is"
 2. prints the `word` with puts
@@ -2708,11 +3370,11 @@ It loops while the word is not equal (`!=`) to the answer.  In each pass through
 7. says "spell" and the `word` being spelt
 8. gets a new answer and removes the newline using `gets.strip`
 
-Then, the loop goes back to the beginning.  It tests again whether the `word` is not equal to the answer.  If it is not equal, we loop again.  (So, if the user is unable to learn spelling, we have an infinite loop!)
+Then, the loop goes back to the beginning. It tests again whether the `word` is not equal to the answer. If it is not equal, we loop again. (So, if the user is unable to learn spelling, we have an infinite loop!)
 
 If the spelling is equal, the loop finishes and we say "great job".
 
-Now, asking the user to spell a word when you are showing them the word is not that difficult.  Let's fix that.  There is a command called `clear` that clears the Terminal window in Mac.
+Now, asking the user to spell a word when you are showing them the word is not that difficult. Let's fix that. There is a command called `clear` that clears the Terminal window in Mac.
 
 Add a function called `cls` (for "clear screen") to the top of your `spelt` program.
 
@@ -2725,7 +3387,7 @@ end
 # markua-end-insert
 ~~~
 
-We are then going to call this new `cls` function from 4 places in the program.  (There are 3 uses of cls on the first page, and one on the second page.)  The rest of the code is the same.
+We are then going to call this new `cls` function from 4 places in the program. (There are 3 uses of cls on the first page, and one on the second page.)  The rest of the code is the same.
 
 {lang="text"}
 ~~~
@@ -2773,27 +3435,27 @@ putsay "You got #{num_right}" +
 " out of #{num_words}!"
 ~~~
 
-Save the file by typing `control` + `o` and then hitting the `Enter` key.  This will overwrite the `spelt.rb` file with our new version.
+Save the file by typing `control` + `o` and then hitting the `Enter` key. This will overwrite the `spelt.rb` file with our new version.
 
 Then, quit nano by typing `control` + `x`.
 
-As a treat, I'm going to show you what this code looks like, with syntax highlighting turned on.  (I haven't been showing the examples in the book with syntax highlighting, since I didn't want you to rely on it.)
+As a treat, I'm going to show you what this code looks like, with syntax highlighting turned on. (I haven't been showing the examples in the course with syntax highlighting, since I didn't want you to rely on it.)
 
 <<(code/spelt.rb)
 
-By the way, if you're wondering how to see syntax highlighting when you write code, you can't do that in nano.  Other text editors, like [Sublime Text](http://www.sublimetext.com/) and [Emacs](http://emacsformacosx.com/) let you do this.
+By the way, if you're wondering how to see syntax highlighting when you write code, you can't do that in nano. Other text editors, like [Sublime Text](http://www.sublimetext.com/) and [Emacs](http://emacsformacosx.com/) let you do this.
 
 Run your new program by typing `ruby spelt.rb` and hit Enter.
 
-You will see the screen get cleared at the right times.  Also, if you spell a word wrong, `spelt` will show it to you, spell it to you, and then test you again.
+You will see the screen get cleared at the right times. Also, if you spell a word wrong, `spelt` will show it to you, spell it to you, and then test you again.
 
 Great job!  This was the most complex program you've ever written!
 
-You should be very, very proud of yourself for what you have learned in this book.
+You should be very, very proud of yourself for what you have learned in this course.
 
 ## Exercises
 
-These final exercises are a bit different.  You're going to read code, and then make small changes.  Lots of being a programmer involves being able to read, understand and modify code, not just write it from scratch.
+These final exercises are a bit different. You're going to read code, and then make small changes. Lots of being a programmer involves being able to read, understand and modify code, not just write it from scratch.
 
 Below is a ruby program called `table` that lets you practice times tables.
 
@@ -2847,29 +3509,29 @@ Notes:
 
 ### Question 1
 
-Make a new file in the `stuff` directory called `table.rb`.  Copy the text of this program and paste it in.  To copy the text, you select it in Preview, then type `command` + `c` to copy.  Then, start nano by typing `nano` it Terminal.  When in nano, paste the text by typing `command` + `v`.  Since the program goes across 2 pages, you will have to do this for each page.  Also, when you paste, lots of the newlines and indenting might be removed.  You'll need to fix that by using the arrow keys to go to the right place, and the space bar or Enter keys to format the code properly.
+Make a new file in the `stuff` directory called `table.rb`. Copy the text of this program and paste it in. To copy the text, you select it in Preview, then type `command` + `c` to copy. Then, start nano by typing `nano` it Terminal. When in nano, paste the text by typing `command` + `v`. Since the program goes across 2 pages, you will have to do this for each page. Also, when you paste, lots of the newlines and indenting might be removed. You'll need to fix that by using the arrow keys to go to the right place, and the space bar or Enter keys to format the code properly.
 
-Run the program with `ruby table.rb` and play along.  (Enter 2 for the number you want to stop at.  After the first run with stopping at 2, you can also use a larger number if you want to practice times tables.)
+Run the program with `ruby table.rb` and play along. (Enter 2 for the number you want to stop at. After the first run with stopping at 2, you can also use a larger number if you want to practice times tables.)
 
-[See the answer.](#ch13q1)
+[See the answer.](#lesson13q1)
 
 ### Question 2
 
-Change the code to print and say "Yay!" when the user gets the question right (instead of "Awesome!").  Open the table.rb file by typing `nano table.rb`.  Save, quit and test, entering 3 as the number you want to stop at.
+Change the code to print and say "Yay!" when the user gets the question right (instead of "Awesome!"). Open the table.rb file by typing `nano table.rb`. Save, quit and test, entering 3 as the number you want to stop at.
 
-[See the answer.](#ch13q2)
+[See the answer.](#lesson13q2)
 
 ### Question 3
 
-Change the code to only multiply by even numbers (2,4,6,8,...) in the times table.  Start at 2, and go up to the largest even number less than or equal to max.  Save, quit and test, entering 5 as the number you want to stop at.
+Change the code to only multiply by even numbers (2,4,6,8,...) in the times table. Start at 2, and go up to the largest even number less than or equal to max. Save, quit and test, entering 5 as the number you want to stop at.
 
-This is a hard question!  Think about it for a while.  I'm going to give you 3 hints, one per page, starting on the next page.  See how many hints you need before you [look at the answer.](#ch13q3)
+This is a hard question!  Think about it for a while. I'm going to give you 3 hints, one per page, starting on the next page. See how many hints you need before you [look at the answer.](#lesson13q3)
 
 {pagebreak}
 
 #### Hint #1 for Question 3
 
-You just have to change 4 lines of code.  You do not need to add or delete any lines of code.
+You just have to change 4 lines of code. You do not need to add or delete any lines of code.
 
 {pagebreak}
 
@@ -2883,78 +3545,71 @@ You need to count by 2's, not by 1's.
 
 If you don't change the starting number, you'll be counting odd numbers, not even ones!
 
-[See the answer.](#ch13q3)
+[See the answer.](#lesson13q3)
 
-{backmatter}
+{#lesson13quiz}
+## Quiz
 
-# For Parents {#forparents}
+{quiz, id: quiz13}
+? What's spelt?
 
-This is a book for you to read with your child, or for your child to read by himself or herself.
+a) a type of grain which is similar to wheat
+b) a really hard example that I just followed along with
+c) the last example in this book
+D) all of the above!
+{/quiz}
 
-I wrote it to teach my 9 year old son the basics of programming.  He has been playing video games for years, and he wants to learn programming since he wants to make his own video games someday.  This book is intended to be the first step.  (No, it doesn't teach you how to create the kinds of video games a 9 year old can dream up; that takes a lot more knowledge!)
+# Appendices
 
-The reason this book exists is to be the best book in the world for a kid who is wanting to learn to program computers to read first.  Computer programming is a good skill to have, regardless of what occupation your child eventually does as an adult.  (I'd argue it's much more important than lots of the math than you learn in high school, for example.)  But more importantly, learning how to program computers teaches a rigor and discipline of thinking which is useful in any field.  This book exists to show kids that they can program computers, and to help them get started.
+## About the Author
 
-With the exception of this appendix, this book is written like a book for kids in elementary school.  My goal is that this book should be accessible for kids between ages 9 and 14.  In North America, that's grades 3-8.  My son is working through it as I write it.  (I don't think it's a good book for kids aged 7 and 8: I started writing this book when my son was 7, but he wasn't ready for it.  So, I paused writing it--for 2 years.  If your child is 7 or 8, I think that something like Scratch is a better choice for kids of that age.)
+This course was written by [Peter Armstrong](https://leanpub.com/u/peter), the co-founder and CEO of Leanpub.
 
-No knowledge of programming is assumed.  The examples are as short as possible, since I assume the reader can't type well.  (My son can't touch type, so if I make long examples I'll hear about it!)
+Peter is also the author of 7 books: Yoshidaguchi, Your First Trip to Japan, The Markua Specification, Programming for Kids, Lean Publishing, Flexible Rails and Hello! Flex 4. He has a BSc in Computer Science and Psychology from the University of Victoria.
 
-My goal is for this book to be the best programming book for kids to read first.  After this book, they can follow what interests them.
+Peter coined the term "lean publishing" to describe the act of self-publishing an in-progress ebook. Leanpub was created based on the principles of lean publishing. He lives in Victoria, BC with his wife and son.
 
-This book is written assuming you are using a Mac.  I think that a Mac is the best computer for kids to learn to program on.  Since this is a beginner book for kids, I can't write it generically to cover Mac, Windows and Linux.  I have to pick one operating system, and have the child follow along verbatim.
-
-Besides teaching programming, the book also teaches basic use of the command line on a Mac.  This is accessed via the Terminal program.  The reason for this is that I feel that the best way to learn is to follow along, and the simplest way to follow along is to type everything.  Real programmers use the command line every day.  If you want to learn programming, you should use Terminal and files.  Yes, you can play with stuff in a web browser at places like Codecademy, and while this is very friendly and instructive, it is fundamentally a different activity from what real programmers do.  And, besides being easier, it's somehow less rewarding.
-
-If you are letting your child use **your** Mac computer to follow along, I **strongly** recommend you sit beside them and follow along!  For example, I'm not planning to teach the command to delete files, but it's fairly short!
-
-The examples are in Ruby.  Ruby is a fairly simple programming language.  If you've ever heard of websites built on "Ruby on Rails", you've heard of Ruby: it's the programming language that Rails is written in.  This is not a book about how to learn Ruby, however.  The examples could have easily been written in JavaScript, CoffeeScript or Python.
-
-Finally, I really want your feedback!  Did your child get stuck anywhere?  If you have anything to say about the book, I want to hear it!  Please email me at peter@leanpub.com and let me know!
-
-# About the Author
-
-I'm the founder of Ruboss, a software consulting company based in Vancouver, BC, Canada.  We're the creators of Leanpub, a website that anyone can use to self-publish in-progress ebooks like this one.  I'm also a programmer, an author and a father.  I've written two books for programmers (*Flexible Rails* and *Hello! Flex 4*), so I know how to explain things to fellow programmers.  And my son is a very intelligent 9 year old, so I have a lot of experience explaining things to a smart child.  This is probably the most challenging book I will ever write, as I honestly want this to be the best introduction to programming for all kids.
-
-# About the Cover
+## About the Cover
 
 The cover [photo](https://unsplash.com/photos/YoC_rDkSS1U) is by [Gareth Newstead](http://www.garethnewsteadphotography.com/?utm_medium=referral&utm_source=unsplash) and is from [Unsplash](https://unsplash.com/).
 
-# About Leanpub
+## About Leanpub
 
-This is a Leanpub book.  I'm the cofounder of Leanpub.  Leanpub is a website which lets anyone publish their own books as they write them.  The idea of publishing an in-progress ebook is something I call Lean Publishing.  You can learn more about Lean Publishing by reading a [free book](https://leanpub.com/lean) that I wrote last year.
+This is a Leanpub course. I'm the cofounder of Leanpub. Leanpub is a website which lets anyone publish their own books and courses as they write them. The idea of publishing an in-progress ebook or course is something I call Lean Publishing. You can learn more about Lean Publishing by reading a [free book](https://leanpub.com/lean) that I wrote last year.
 
-Besides being totally free to use, being a Leanpub author can also be profitable.  We pay authors 80% royalties per copy sold.  So, a $10 ebook pays $8 in royalties per copy!
+Besides being totally free to use, being a Leanpub author can also be profitable. We pay authors 80% royalties per copy sold. So, a $10 ebook pays $8 in royalties per copy!
 
-# Answers to Exercises
+## Answers to the Exercises
 
-## Chapter 1
+{#lesson1answers}
+### Lesson 1 Answers
 
-### Question 1 {#ch1answers}
+#### Question 1
 
-You start Terminal and `cd` into the **`stuff`** directory by doing this:
+You start Terminal and `cd` into the `stuff` directory by doing this:
 
-1. In Finder, type **`Command + Space`** to start Spotlight
-2. Type **`terminal`**
+1. In Finder, type `Command + Space` to start Spotlight
+2. Type `terminal`
 3. Hit the Enter key
-4. Type **`cd stuff`** in Terminal and hit `Enter`.
+4. Type `cd stuff` in Terminal and hit `Enter`.
 
-You will now be in Terminal in the **`stuff`** directory.
+You will now be in Terminal in the `stuff` directory.
 
-### Question 2
+#### Question 2
 
-To start nano, just type **`nano`** in the Terminal window, and hit Enter.
+To start nano, just type `nano` in the Terminal window, and hit Enter.
 
 You will now be in nano.
 
 Type `hooray`.
 
-Hold down the `Control` key and typo `o`.  Type `hooray.txt` and press Enter.  Nano will say "Wrote 1 line" (or "Wrote 2 lines", if you hit Enter after typing `hooray`).
+Hold down the `Control` key and typo `o`. Type `hooray.txt` and press Enter. Nano will say "Wrote 1 line" (or "Wrote 2 lines", if you hit Enter after typing `hooray`).
 
 Hold down the `Control` key and type `x` to quit nano.
 
-### Question 3
+#### Question 3
 
-Type **`cat hooray.txt`** to see the contents of hooray.txt.
+Type `cat hooray.txt` to see the contents of hooray.txt.
 
 You will see something like this:
 
@@ -2964,31 +3619,30 @@ You will see something like this:
 hooray
 ~~~
 
-### Question 4
+#### Question 4
 
-To quit Terminal, type **`Command + Q`** or choosing Quit Terminal from the Terminal menu.
+To quit Terminal, type `Command + Q` or choosing Quit Terminal from the Terminal menu.
 
 ![](images/quittingterminal.png)
 
-### Continue Reading
+#### Continue Reading
 
-If this was confusing, please [read chapter 1 again](#ch1).
+If this was confusing, please [read lesson 1 again](#lesson1).
 
-If this made sense, please [continue to chapter 2](#ch2).
+If this made sense, please [continue to the lesson 1 quiz](#lesson1quiz).
 
-{pagebreak}
+{#lesson2answers}
+### Lesson 2 Answers
 
-## Chapter 2
+#### Question 1
 
-### Question 1 {#ch2answers}
+To start nano, type `nano` in a Terminal window, and hit Enter. You will now be in nano. Type `puts "Hi!"`. To type `!`, hold the `shift` key and type 1.
 
-To start nano, type **`nano`** in a Terminal window, and hit Enter. You will now be in nano. Type **`puts "Hi!"`**. To type `!`, hold the `shift` key and type 1.
-
-To save the file, hold down the `Control` key and typo `o`.  Type `hi.rb` and press Enter.  Nano will say "Wrote 1 line" (or "Wrote 2 lines", if you hit Enter after the `puts "Hi!"`).
+To save the file, hold down the `Control` key and typo `o`. Type `hi.rb` and press Enter. Nano will say "Wrote 1 line" (or "Wrote 2 lines", if you hit Enter after the `puts "Hi!"`).
 
 Hold down the `Control` key and type `x` to quit nano.
 
-In Terminal, type **`ruby hi.rb`** and hit **`Enter`**.  You need a space between **`ruby`** and **`hi.rb`**.
+In Terminal, type `ruby hi.rb` and hit `Enter`. You need a space between `ruby` and `hi.rb`.
 
 You will see something like this:
 
@@ -2998,47 +3652,53 @@ You will see something like this:
 Hi!
 ~~~
 
-### Continue Reading
+#### Continue Reading
 
-If this was confusing, please [read chapter 2 again](#ch2).
+If this was confusing, please [read lesson 2 again](#lesson2).
 
-If this made sense, please [continue to chapter 3](#ch3).
+If this made sense, please [continue to the lesson 2 quiz](#lesson2quiz).
 
-{pagebreak}
+{#lesson3answers}
+### Lesson 3 Answers
 
-## Chapter 3
-
-### Question 1 {#ch3answers}
+#### Question 1
 
 {lang="text"}
 ~~~
-irb> 3-2
+irb> 3 - 2
 => 1
 ~~~
 
-### Question 2
+#### Question 2
 
 {lang="text"}
 ~~~
-irb> 3.0/2
+irb> 3.0 / 2
 => 1.5
 ~~~
 
-1.5 is 1 and a half.  3 divided by 2 is 1 and a half.  1 and a half can be written as `1 1/2`, but can also be written as `1.5`.
+`3.0` divided by `2` produces `1.5`. Since at least one of the numerator or denominator had a decimal point in it, the result was calculated as a floating point number.
 
-By the way, there's a reason why I said 3.0/2 and not 3/2.  But, I don't want to explain that yet.  I will later!
+#### Question 3
 
-### Continue Reading
+{lang="text"}
+~~~
+irb> 3 / 2
+=> 1
+~~~
 
-If this was confusing, please [read chapter 3 again](#ch3).
+`3` divided by `2` produces `1`. Since neither the numerator or denominator had a decimal point in it, the result was calculated as an integer. With integer division, the remainder is thrown away. Again, don't blindly trust a computer. Think for yourself.
 
-If this made sense, please [continue to chapter 4](#ch4).
+#### Continue Reading
 
-{pagebreak}
+If this was confusing, please [read lesson 3 again](#lesson3).
 
-## Chapter 4
+If this made sense, please [continue to the lesson 3 quiz](#lesson3quiz).
 
-### Question 1 {#ch4answers}
+{#lesson4answers}
+### Lesson 4 Answers
+
+#### Question 1
 
 {lang="text"}
 ~~~
@@ -3058,7 +3718,7 @@ irb> quad(3)
 => 12
 ~~~
 
-### Question 2
+#### Question 2
 
 {lang="text"}
 ~~~
@@ -3090,7 +3750,7 @@ method `quad23' for main:Object
 irb>
 ~~~
 
-### Question 3
+#### Question 3
 
 You need to write this function using brackets around the function call:
 
@@ -3102,7 +3762,7 @@ irb> end
 => nil
 ~~~
 
-Note that if you don't do this, Ruby won't be able to figure out what you are doing.  Usually, Ruby is smart enough to do this, but in this case it is not:
+Note that if you don't do this, Ruby won't be able to figure out what you are doing. Usually, Ruby is smart enough to do this, but in this case it is not:
 
 {lang="text"}
 ~~~
@@ -3130,7 +3790,7 @@ irb> quad3 3
 => 12
 ~~~
 
-If that didn't make total sense, don't worry: we'll look at this more in the Functions 2 chapter later on.
+If that didn't make total sense, don't worry: we'll look at this more in the Functions 2 lesson later on.
 
 Also, if you want, you can put your function calls in brackets. As you saw above, sometimes you need to do this to let Ruby figure out what you mean. (This is not one of those cases, though.)
 
@@ -3144,17 +3804,16 @@ irb> quad3 3
 => 12
 ~~~
 
-### Continue Reading
+#### Continue Reading
 
-If this was confusing, please [read chapter 4 again](#ch4).
+If this was confusing, please [read lesson 4 again](#lesson4).
 
-If this made sense, please [continue to chapter 5](#ch5).
+If this made sense, please [continue to the lesson 4 quiz](#lesson4quiz).
 
-{pagebreak}
+{#lesson5answers}
+### Lesson 5 Answers
 
-## Chapter 5
-
-### Question 1 {#ch5answers}
+#### Question 1
 
 Start nano and add the code below that is in **`bold`** text.
 
@@ -3181,7 +3840,7 @@ puts quadruple 4
 # markua-end-insert
 ~~~
 
-Save the file and run **`ruby times.rb`**.
+Save the file and run `ruby times.rb`.
 
 {lang="text"}
 ~~~
@@ -3192,17 +3851,16 @@ Save the file and run **`ruby times.rb`**.
 ~/stuff[]$
 ~~~
 
-### Continue Reading
+#### Continue Reading
 
-If this was confusing, please [read chapter 5 again](#ch5).
+If this was confusing, please [read lesson 5 again](#lesson5).
 
-If this made sense, please [continue to chapter 6](#ch6).
+If this made sense, please [continue to the lesson 5 quiz](#lesson5quiz).
 
-{pagebreak}
+{#lesson6answers}
+### Lesson 6 Answers
 
-## Chapter 6
-
-### Question 1 {#ch6answers}
+#### Question 1
 
 {lang="text"}
 ~~~
@@ -3214,7 +3872,7 @@ irb> times6 6
 => 36
 ~~~
 
-### Question 2
+#### Question 2
 
 {lang="text"}
 ~~~
@@ -3226,7 +3884,7 @@ irb> times12 12
 => 144
 ~~~
 
-### Question 3
+#### Question 3
 
 {lang="text"}
 ~~~
@@ -3238,7 +3896,7 @@ irb> times12b 12
 => 144
 ~~~
 
-### Question 4
+#### Question 4
 
 Add the code in **`bold`** to times.rb.
 
@@ -3288,17 +3946,16 @@ You can test this by running `ruby times.rb`:
 ~/stuff[]$
 ~~~
 
-### Continue Reading
+#### Continue Reading
 
-If this was confusing, please [read chapter 6 again](#ch6).
+If this was confusing, please [read lesson 6 again](#lesson6).
 
-If this made sense, please [continue to chapter 7](#ch7).
+If this made sense, please [continue to the lesson 6 quiz](#lesson6quiz).
 
-{pagebreak}
+{#lesson7answers}
+### Lesson 7 Answers
 
-## Chapter 7
-
-### Question 1 {#ch7answers}
+#### Question 1
 
 Modify the code in **`bold`** in times.rb.
 
@@ -3346,9 +4003,9 @@ You can test this by running `ruby times.rb`:
 ~/stuff[]$
 ~~~
 
-### Question 2
+#### Question 2
 
-I don't know your name, so I can't say what will be here.  My name is Peter, so this is what it looks like for me:
+I don't know your name, so I can't say what will be here. My name is Peter, so this is what it looks like for me:
 
 {lang="text"}
 ~~~
@@ -3356,17 +4013,16 @@ irb> "Peter".reverse
 => "reteP"
 ~~~
 
-### Continue Reading
+#### Continue Reading
 
-If this was confusing, please [read chapter 7 again](#ch7).
+If this was confusing, please [read lesson 7 again](#lesson7).
 
-If this made sense, please [continue to chapter 8](#ch8).
+If this made sense, please [continue to the lesson 7 quiz](#lesson7quiz).
 
-{pagebreak}
+{#lesson8answers}
+### Lesson 8 Answers
 
-## Chapter 8
-
-### Question 1 {#ch8answers}
+#### Question 1
 
 {lang="text"}
 ~~~
@@ -3376,7 +4032,7 @@ irb> a = 4
 
 Yes, that *was* an easy question!
 
-### Question 2
+#### Question 2
 
 {lang="text"}
 ~~~
@@ -3386,7 +4042,7 @@ irb> b = a * 5
 
 You could also have written `b = 5 * a`. The order does not matter.
 
-### Question 3
+#### Question 3
 
 {lang="text"}
 ~~~
@@ -3406,7 +4062,7 @@ method `world' for main:Object
 irb>
 ~~~
 
-### Question 4
+#### Question 4
 
 Since we just assigned the string "hello world" to c, we can save some typing!
 
@@ -3424,15 +4080,16 @@ irb> d = "hello world".length
 => 11
 ~~~
 
-### Continue Reading
+#### Continue Reading
 
-If this was confusing, please [read chapter 8 again](#ch8).
+If this was confusing, please [read lesson 8 again](#lesson8).
 
-If this made sense, please [continue to chapter 9](#ch9).
+If this made sense, please [continue to the lesson 8 quiz](#lesson8quiz).
 
-## Chapter 9
+{#lesson9answers}
+### Lesson 9 Answers
 
-### Question 1 {#ch9answers}
+#### Question 1
 
 {lang="text"}
 ~~~
@@ -3446,7 +4103,7 @@ Peter
 => "Hello Peter"
 ~~~
 
-### Question 2
+#### Question 2
 
 {lang="text"}
 ~~~
@@ -3466,15 +4123,16 @@ two
 => "onetwo"
 ~~~
 
-### Continue Reading
+#### Continue Reading
 
-If this was confusing, please [read chapter 9 again](#ch9).
+If this was confusing, please [read lesson 9 again](#lesson9).
 
-If this made sense, please [continue to chapter 10](#ch10).
+If this made sense, please [continue to the lesson 9 quiz](#lesson9quiz).
 
-## Chapter 10
+{#lesson10answers}
+### Lesson 10 Answers
 
-### Question 1 {#ch10answers}
+#### Question 1
 
 {lang="text"}
 ~~~
@@ -3484,7 +4142,7 @@ irb> a
 => [1, 2, 3, 4, 5]
 ~~~
 
-### Question 2
+#### Question 2
 
 {lang="text"}
 ~~~
@@ -3494,7 +4152,7 @@ irb> b
 => ["cake", "is", "tasty"]
 ~~~
 
-### Question 3
+#### Question 3
 
 {lang="text"}
 ~~~
@@ -3518,7 +4176,7 @@ tasty
 => ["cake", "is", "tasty"]
 ~~~
 
-### Question 4
+#### Question 4
 
 {lang="text"}
 ~~~
@@ -3546,7 +4204,7 @@ irb> end
 => [1, 2, 3, 4, 5]
 ~~~
 
-### Question 5
+#### Question 5
 
 {lang="text"}
 ~~~
@@ -3574,17 +4232,18 @@ irb> end
 => [1, 2, 3, 4, 5]
 ~~~
 
-### Continue Reading
+#### Continue Reading
 
-If this was confusing, please [read chapter 10 again](#ch10).
+If this was confusing, please [read lesson 10 again](#lesson10).
 
-If this made sense, please [continue to chapter 11](#ch11).
+If this made sense, please [continue to the lesson 10 quiz](#lesson10quiz).
 
-## Chapter 11
+{#lesson11answers}
+### Lesson 11 Answers
 
-### Question 1 {#ch11answers}
+#### Question 1
 
-Add the line that is in **`bold`**.  Besides that, the rest of the code is unchanged.
+Add the line that is in **`bold`**. Besides that, the rest of the code is unchanged.
 
 {lang="text"}
 ~~~
@@ -3606,9 +4265,9 @@ end
 putsay "so amaze"
 ~~~
 
-### Question 2
+#### Question 2
 
-Add the line that is in **`bold`**, and delete the line in strikethrough.  Besides that, the rest of the code is unchanged.
+Add the line that is in **`bold`**, and delete the line in strikethrough. Besides that, the rest of the code is unchanged.
 
 {lang="text"}
 ~~~
@@ -3633,17 +4292,18 @@ end
 putsay "so amaze"
 ~~~
 
-Note that since we are randomizing the order with `shuffle!`, we also got rid of the call to `reverse!`.  There's no reason to reverse the order if we are just going to randomize it.
+Note that since we are randomizing the order with `shuffle!`, we also got rid of the call to `reverse!`. There's no reason to reverse the order if we are just going to randomize it.
 
-### Continue Reading
+#### Continue Reading
 
-If this was confusing, please [read chapter 11 again](#ch11).
+If this was confusing, please [read lesson 11 again](#lesson11).
 
-If this made sense, please [continue to chapter 12](#ch12).
+If this made sense, please [continue to the lesson 11 quiz](#lesson11quiz).
 
-## Chapter 12
+{#lesson12answers}
+### Lesson 12 Answers
 
-### Question 1 {#ch12answers}
+#### Question 1
 
 {lang="text"}
 ~~~
@@ -3651,7 +4311,7 @@ irb> 1 == 1
 => true
 ~~~
 
-### Question 2
+#### Question 2
 
 {lang="text"}
 ~~~
@@ -3663,7 +4323,7 @@ This is false because the number 1 and the string "1" are different types.
 
 {pagebreak}
 
-### Question 3
+#### Question 3
 
 {lang="text"}
 ~~~
@@ -3686,7 +4346,7 @@ irb>
 
 {pagebreak}
 
-### Question 4
+#### Question 4
 
 {lang="text"}
 ~~~
@@ -3711,15 +4371,16 @@ irb> end
 => nil
 ~~~
 
-### Continue Reading
+#### Continue Reading
 
-If this was confusing, please [read chapter 12 again](#ch12).
+If this was confusing, please [read lesson 12 again](#lesson12).
 
-If this made sense, please [continue to chapter 13](#ch13).
+If this made sense, please [continue to the lesson 12 quiz](#lesson12quiz).
 
-## Chapter 13
+### Lesson 13 Answers
 
-### Question 1 {#ch13q1}
+{#lesson13q1}
+#### Question 1
 
 {lang="text"}
 ~~~
@@ -3744,9 +4405,8 @@ You got 3 out of 4.
 ~/stuff[]$
 ~~~
 
-{pagebreak}
-
-### Question 2 {#ch13q2}
+{#lesson13q2}
+#### Question 2
 
 {lang="text"}
 ~~~
@@ -3765,9 +4425,8 @@ You got 3 out of 4.
 ...
 ~~~
 
-{pagebreak}
-
-### Question 3 {#ch13q3}
+{#lesson13q3}
+#### Question 3
 
 {lang="text"}
 ~~~
