@@ -440,24 +440,24 @@ D) `irb`
 
 ? What's the result of doing `7 / 2` in the interactive Ruby shell?
 
-A) 3
-b) 3.5
-c) 4
-d) 4.5
+A) `3`
+b) `3.5`
+c) `4`
+d) `4.5`
 
 ? What's the result of doing `7.0 / 2` in the interactive Ruby shell?
 
-a) 3
-B) 3.5
-c) 4
-d) 4.5
+a) `3`
+B) `3.5`
+c) `4`
+d) `4.5`
 
 ? What's the result of doing `11 % 3` in the interactive Ruby shell?
 
-a) 0
-b) 1
-C) 2
-d) 3
+a) `0`
+b) `1`
+C) `2`
+d) `3`
 {/quiz}
 
 {#lesson4}
@@ -615,19 +615,19 @@ irb> end
 
 ? What does `square(5)` return?
 
-a) 5
-b) 10
-C) 25
-d) 50
-e) 125
+a) `5`
+b) `10`
+C) `25`
+d) `50`
+e) `125`
 
 ? What does `cube(5)` return?
 
-a) 5
-b) 10
-c) 25
-d) 50
-E) 125
+a) `5`
+b) `10`
+c) `25`
+d) `50`
+E) `125`
 {/quiz}
 
 {#lesson5}
@@ -1158,19 +1158,19 @@ For each question, what is the result of the following expression in `irb`?
 
 a) `"hello"`
 B) `"olleh"`
-c) NoMethodError: undefined method `reverse' for "hello":String
+c) `NoMethodError: undefined method 'reverse' for "hello":String`
 
 ? `"hello".reverse.reverse.reverse.reverse`
 
 A) `"hello"`
 b) `"olleh"`
-c) NoMethodError: undefined method `reverse' for "hello":String
+c) `NoMethodError: undefined method 'reverse' for "hello":String`
 
 ? `"hello".length * 3`
 
-a) 5
-B) 15
-c) NoMethodError: undefined method `*' for "hello":String
+a) `5`
+B) `15`
+c) `NoMethodError: undefined method '*' for "hello":String`
 
 {/quiz}
 
@@ -1356,10 +1356,10 @@ You can see the [answers to the exercises](#lesson8answers), or just continue to
 irb> x = "hello".length
 ```
 
-a) 0
-B) 5
-c) `"hello"`
-d) SyntaxError: "hello".length
+a) `0`
+B) `5`
+c) `"hello"``
+d) `SyntaxError: "hello".length`
 
 ? What is the value of x after the following in irb?
 
@@ -1369,8 +1369,8 @@ irb> x = "hello" + "hello"
 
 a) `"hello hello"`
 B) `"hellohello"`
-c) 5
-d) SyntaxError: TypeError: no implicit conversion of Fixnum into String
+c) `5`
+d) `SyntaxError: TypeError: no implicit conversion of Fixnum into String`
 {/quiz}
 
 {#lesson9}
@@ -1605,7 +1605,7 @@ a) `""`
 B) `"foo"`
 c) `"foo\n"`
 d) `"\n"`
-e) SyntaxError: "gets.strip"
+e) `SyntaxError: "gets.strip"`
 
 ? What is the value of s after the following in irb?
 
@@ -1617,8 +1617,8 @@ irb> s = gets.strip.to_i
 a) `""`
 b) `"5\n"`
 c) `"5"`
-D) 5
-e) SyntaxError: "gets.strip.to_i"
+D) `5`
+e) `SyntaxError: "gets.strip.to_i"`
 {/quiz}
 
 {#lesson10}
@@ -1909,10 +1909,10 @@ irb> a = [5,2,4,1,3]
 irb> a.each {|i| puts i}
 ```
 
-a) 0
-b) 1
-C) 5
-d) 10
+a) `0`
+b) `1`
+C) `5`
+d) `10`
 
 ? What is the value of `a` after the following in irb?
 
