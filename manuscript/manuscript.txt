@@ -1,5 +1,6 @@
 {frontmatter}
 
+{sample: true, community: true}
 # Introduction
 
 This book will teach you how to write computer programs!
@@ -22,8 +23,8 @@ Let's get started!
 
 {mainmatter}
 
-{#ch1, include: "book,sample"}
-# Chapter 1: Hello, Command Line!
+{sample: true, community: true}
+# Chapter 1: Hello, Command Line! {#ch1}
 
 This chapter is about the command line!
 
@@ -181,6 +182,7 @@ Make sure you do the Exercises on the next page before continuing!
 
 You can see the [answers to the exercises](#ch1answers), or just continue to the next chapter.
 
+{sample: true, community: true}
 # Chapter 2: Hello World! {#ch2}
 
 Let's write our first computer program!
@@ -231,6 +233,7 @@ In the next chapter, we will play with Ruby on its own command line!
 
 You can see the [answers to the exercises](#ch2answers), or just continue to the next chapter.
 
+{sample: true, community: true}
 # Chapter 3: Hello, **`irb`**! {#ch3}
 
 Ensure that Terminal is running, and that you are in the `stuff` directory. (If that did not make sense, see the [Chapter 1 Exercises](#ch1exercises).)
@@ -285,6 +288,7 @@ In the next chapter, we're going to learn what functions are!
 
 You can see the [answers to the exercises](#ch3answers), or just continue to the next chapter.
 
+{community: true}
 # Chapter 4: Functions {#ch4}
 
 If all we could do with programming languages was add numbers and say hello to ourselves, we wouldn't have anything more than a lousy calculator!
@@ -418,6 +422,7 @@ We’ve now made 2 functions! In the Exercises, we'll make 3 more! Leave irb ope
 
 You can see the [answers to the exercises](#ch4answers), or just continue to the next chapter.
 
+{community: true}
 # Chapter 5: Programs {#ch5}
 
 If you haven't quit irb, quit it now.  Then start irb again by typing **`irb`** in Terminal. (If Terminal isn't running, start it using Spotlight, and go into your stuff directory by typing **`cd stuff`**.  Then run irb by typing **`irb`**.)
@@ -482,6 +487,7 @@ We'll learn that in the next chapter...
 
 You can see the [answers to the exercises](#ch5answers), or just continue to the next chapter.
 
+{community: true}
 # Chapter 6: Functions, Part 2 {#ch6}
 
 Way back in the first chapter about functions, I said that a function is something that does some stuff and returns a value.  The return value is the answer.
