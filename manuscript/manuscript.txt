@@ -2893,6 +2893,7 @@ If you don't change the starting number, you'll be counting odd numbers, not eve
 
 {backmatter}
 
+{sample: true, community: true}
 # For Parents {#forparents}
 
 This is a book for you to read with your child, or for your child to read by himself or herself.
@@ -2917,14 +2918,17 @@ The examples are in Ruby.  Ruby is a fairly simple programming language.  If you
 
 Finally, I really want your feedback!  Did your child get stuck anywhere?  If you have anything to say about the book, I want to hear it!  Please email me at peter@leanpub.com and let me know!
 
+{sample: true, community: true}
 # About the Author
 
 I'm the founder of Ruboss, a software consulting company based in Vancouver, BC, Canada.  We're the creators of Leanpub, a website that anyone can use to self-publish in-progress ebooks like this one.  I'm also a programmer, an author and a father.  I've written two books for programmers (*Flexible Rails* and *Hello! Flex 4*), so I know how to explain things to fellow programmers.  And my son is a very intelligent 9 year old, so I have a lot of experience explaining things to a smart child.  This is probably the most challenging book I will ever write, as I honestly want this to be the best introduction to programming for all kids.
 
+{sample: true, community: true}
 # About the Cover
 
 The cover [photo](https://unsplash.com/photos/YoC_rDkSS1U) is by [Gareth Newstead](http://www.garethnewsteadphotography.com/?utm_medium=referral&utm_source=unsplash) and is from [Unsplash](https://unsplash.com/).
 
+{sample: true, community: true}
 # About Leanpub
 
 This is a Leanpub book.  I'm the cofounder of Leanpub.  Leanpub is a website which lets anyone publish their own books as they write them.  The idea of publishing an in-progress ebook is something I call Lean Publishing.  You can learn more about Lean Publishing by reading a [free book](https://leanpub.com/lean) that I wrote last year.
@@ -2933,6 +2937,7 @@ Besides being totally free to use, being a Leanpub author can also be profitable
 
 # Answers to Exercises
 
+{sample: true, community: true}
 ## Chapter 1
 
 ### Question 1 {#ch1answers}
@@ -2984,6 +2989,7 @@ If this made sense, please [continue to chapter 2](#ch2).
 
 {pagebreak}
 
+{sample: true, community: true}
 ## Chapter 2
 
 ### Question 1 {#ch2answers}
@@ -3012,6 +3018,7 @@ If this made sense, please [continue to chapter 3](#ch3).
 
 {pagebreak}
 
+{sample: true, community: true}
 ## Chapter 3
 
 ### Question 1 {#ch3answers}
@@ -3042,6 +3049,7 @@ If this made sense, please [continue to chapter 4](#ch4).
 
 {pagebreak}
 
+{community: true}
 ## Chapter 4
 
 ### Question 1 {#ch4answers}
@@ -3158,6 +3166,7 @@ If this made sense, please [continue to chapter 5](#ch5).
 
 {pagebreak}
 
+{community: true}
 ## Chapter 5
 
 ### Question 1 {#ch5answers}
@@ -3206,6 +3215,7 @@ If this made sense, please [continue to chapter 6](#ch6).
 
 {pagebreak}
 
+{community: true}
 ## Chapter 6
 
 ### Question 1 {#ch6answers}
